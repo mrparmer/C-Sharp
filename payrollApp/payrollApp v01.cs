@@ -25,7 +25,7 @@ namespace PayrollApp1
             hours = Convert.ToDouble(Console.ReadLine());
             Console.WriteLine("Pay rate for " + name + "?");
             wage = Convert.ToDouble(Console.ReadLine());
-            Console.WriteLine("hi");
+           
         }
         static void lists(string[] args)
         {
