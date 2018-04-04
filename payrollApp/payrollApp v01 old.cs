@@ -14,7 +14,7 @@ namespace PayrollApp1
 
         static void Main(string[] args)
         {
-
+            
         }
 
         static void lists(string[] args)
@@ -37,6 +37,6 @@ namespace PayrollApp1
             wagesList.Add(wage);
         }
 
-
+        
     }
 }
