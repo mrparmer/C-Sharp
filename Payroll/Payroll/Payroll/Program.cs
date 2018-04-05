@@ -11,20 +11,13 @@ namespace PayrollApp1
         static string name;
         static double wage;
         static double hours;
+        static double pay;
+        static List<string> nameList = new List<string>();
+        static List<double> hoursList = new List<double>();
+        static List<double> wagesList = new List<double>();
+        
 
         static void Main(string[] args)
-        {
-
-        }
-
-        static void lists(string[] args)
-        {
-            List<string> nameList = new List<string>();
-            List<double> hoursList = new List<double>();
-            List<double> WageList = new List<double>();
-        }
-
-        static void input(string[] args)
         {
             Console.WriteLine("What is employees name?");
             name = Console.ReadLine();
@@ -35,8 +28,25 @@ namespace PayrollApp1
             Console.WriteLine("Pay rate for " + name + "?");
             wage = Convert.ToDouble(Console.ReadLine());
             wagesList.Add(wage);
+
+            double pay = wage * hours;
+
+            Console.WriteLine(name + "'s pay should equal " + pay);
+            Console.WriteLine("Employees");
+            nameList.ForEach(Console.WriteLine);
+            Console.ReadLine();
         }
 
+        static void lists(string[] args)
+        {
+            
+        }
 
+        static void input(string[] args)
+        {
+           
+        }
+
+       
     }
 }
