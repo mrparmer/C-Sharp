@@ -1,0 +1,7 @@
+C:\Users\PC\Documents\GitHub\C-Sharp\Payroll\PayRoll2\PayRoll2\PayRoll2\obj\Debug\PayRoll2.csprojResolveAssemblyReference.cache
+C:\Users\PC\Documents\GitHub\C-Sharp\Payroll\PayRoll2\PayRoll2\PayRoll2\obj\Debug\PayRoll2.csproj.CoreCompileInputs.cache
+C:\Users\PC\Documents\GitHub\C-Sharp\Payroll\PayRoll2\PayRoll2\PayRoll2\bin\Debug\PayRoll2.exe.config
+C:\Users\PC\Documents\GitHub\C-Sharp\Payroll\PayRoll2\PayRoll2\PayRoll2\bin\Debug\PayRoll2.exe
+C:\Users\PC\Documents\GitHub\C-Sharp\Payroll\PayRoll2\PayRoll2\PayRoll2\bin\Debug\PayRoll2.pdb
+C:\Users\PC\Documents\GitHub\C-Sharp\Payroll\PayRoll2\PayRoll2\PayRoll2\obj\Debug\PayRoll2.exe
+C:\Users\PC\Documents\GitHub\C-Sharp\Payroll\PayRoll2\PayRoll2\PayRoll2\obj\Debug\PayRoll2.pdb

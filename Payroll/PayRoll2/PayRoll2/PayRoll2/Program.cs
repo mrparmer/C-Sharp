@@ -8,20 +8,7 @@ namespace PayRoll2
 {
     class Program
     {
-        static void Main(string[] args)
-        {
-            string name;                                                             //Employee Name added to nameList
-            double payRate;                                                          //Employee Pay Rate added to rateList
-            double hoursWorked;                                                      //Integer associated with how many hours the employee worked, multiplied by payRate
-            //double pay;
-            bool addMore;
-
-            List<string> nameList = new List<string>();
-            List<double> rateList = new List<double>();
-            List<double> hWorkedList = new List<double>();
-        }
-
-        public static object PayRollMethod(string name, double payRate, double hoursWorked, bool addMore, List<string> nameList, List<double> rateList, List<double> hWorkedList)
+        public static void PayRollMethod(string name, double payRate, double hoursWorked, string addMore, List<string> nameList, List<double> rateList, List<double> hWorkedList)
         {
             Console.Write("Enter employee name: ");
             name = Console.ReadLine();
@@ -36,12 +23,28 @@ namespace PayRoll2
             hWorkedList.Add(hoursWorked);
 
             Console.Write("Do you need to add any other employees? Y or N");
-            addMore = Convert.ToBoolean(Console.ReadLine());
+            addMore = Console.ReadLine();
 
             Console.ReadKey();
 
         }
 
+
+        static void Main(string[] args)
+        {
+            string name;                                                             //Employee Name added to nameList
+            double payRate;                                                          //Employee Pay Rate added to rateList
+            double hoursWorked;                                                      //Integer associated with how many hours the employee worked, multiplied by payRate
+            string addMore;
+
+            List<string> nameList = new List<string>();
+            List<double> rateList = new List<double>();
+            List<double> hWorkedList = new List<double>();
+
+            PayRollMethod();
+        }
+
+       
 
     }
 }
