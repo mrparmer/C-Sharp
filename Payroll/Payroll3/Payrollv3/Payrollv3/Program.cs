@@ -16,7 +16,7 @@ namespace ConsoleApp2
 
             while (true)                                                    //loop for the user to input employee information, continues while until the user enters X to exit
             {
-                Console.Write("Do you want to (A)dd, or E(x)it? ");         
+                Console.Write("Do you want to (A)dd, (P)rint lists, or E(x)it? ");         
                 string userInput = Console.ReadLine();
                 string upperUserInput = userInput.ToUpper();                //convert any lowercase entries into uppercase to ensure consistancy in input
 
@@ -38,7 +38,27 @@ namespace ConsoleApp2
                     string payAmount = String.Format("Pay the employee: {0:C}", payOwed); //Converts the result of payOwed to currency
 
                     Console.WriteLine(payAmount);
-                    
+
+                }
+
+                else if (upperUserInput == "P")
+                {
+                    Console.WriteLine("\nEmployees: \n");
+                    foreach (string element in namesList)
+                    {
+                        Console.WriteLine(element);
+                    }
+                    Console.WriteLine("\nPay Rates: \n");
+                    foreach (int element in payList)
+                    {
+                        Console.WriteLine(element);
+                    }
+                    Console.WriteLine("\nHours Worked: \n");
+                    foreach (int element in hoursList)
+                    {
+                        Console.WriteLine(element);
+                    }
+                    Console.WriteLine();                   
                 }
 
                 else if (upperUserInput == "X")
@@ -46,7 +66,7 @@ namespace ConsoleApp2
                     Environment.Exit(0);                                    //Exits the program when the user inputs X
                     break;                                                  //breaks the While loop when the condition is met
                 }
-                else if (upperUserInput !="A , X")                          //if any character other than those specified it prints the error below
+                else if (upperUserInput != "A , X, P")                          //if any character other than those specified it prints the error below
                 {
                     Console.WriteLine("Unknown Command");
                 }
