@@ -1,10 +1,3 @@
-C:\Users\PC\Documents\GitHub\C-Sharp\Payroll\Payroll3\Payrollv3\Payrollv3\bin\Debug\Payrollv3.exe.config
-C:\Users\PC\Documents\GitHub\C-Sharp\Payroll\Payroll3\Payrollv3\Payrollv3\bin\Debug\Payrollv3.exe
-C:\Users\PC\Documents\GitHub\C-Sharp\Payroll\Payroll3\Payrollv3\Payrollv3\bin\Debug\Payrollv3.pdb
-C:\Users\PC\Documents\GitHub\C-Sharp\Payroll\Payroll3\Payrollv3\Payrollv3\obj\Debug\Payrollv3.csprojResolveAssemblyReference.cache
-C:\Users\PC\Documents\GitHub\C-Sharp\Payroll\Payroll3\Payrollv3\Payrollv3\obj\Debug\Payrollv3.csproj.CoreCompileInputs.cache
-C:\Users\PC\Documents\GitHub\C-Sharp\Payroll\Payroll3\Payrollv3\Payrollv3\obj\Debug\Payrollv3.exe
-C:\Users\PC\Documents\GitHub\C-Sharp\Payroll\Payroll3\Payrollv3\Payrollv3\obj\Debug\Payrollv3.pdb
 C:\Users\Mparmer-Desk\Documents\GitHub\C-Sharp\Payroll\Payroll3\Payrollv3\Payrollv3\obj\Debug\Payrollv3.csprojResolveAssemblyReference.cache
 C:\Users\Mparmer-Desk\Documents\GitHub\C-Sharp\Payroll\Payroll3\Payrollv3\Payrollv3\obj\Debug\Payrollv3.csproj.CoreCompileInputs.cache
 C:\Users\Mparmer-Desk\Documents\GitHub\C-Sharp\Payroll\Payroll3\Payrollv3\Payrollv3\obj\Debug\Payrollv3.exe
@@ -12,3 +5,10 @@ C:\Users\Mparmer-Desk\Documents\GitHub\C-Sharp\Payroll\Payroll3\Payrollv3\Payrol
 C:\Users\Mparmer-Desk\Documents\GitHub\C-Sharp\Payroll\Payroll3\Payrollv3\Payrollv3\bin\Debug\Payrollv3.exe.config
 C:\Users\Mparmer-Desk\Documents\GitHub\C-Sharp\Payroll\Payroll3\Payrollv3\Payrollv3\bin\Debug\Payrollv3.exe
 C:\Users\Mparmer-Desk\Documents\GitHub\C-Sharp\Payroll\Payroll3\Payrollv3\Payrollv3\bin\Debug\Payrollv3.pdb
+C:\Users\PC\Documents\GitHub\C-Sharp\Payroll\Payroll3\Payrollv3\Payrollv3\bin\Debug\Payrollv3.exe.config
+C:\Users\PC\Documents\GitHub\C-Sharp\Payroll\Payroll3\Payrollv3\Payrollv3\bin\Debug\Payrollv3.exe
+C:\Users\PC\Documents\GitHub\C-Sharp\Payroll\Payroll3\Payrollv3\Payrollv3\bin\Debug\Payrollv3.pdb
+C:\Users\PC\Documents\GitHub\C-Sharp\Payroll\Payroll3\Payrollv3\Payrollv3\obj\Debug\Payrollv3.csprojResolveAssemblyReference.cache
+C:\Users\PC\Documents\GitHub\C-Sharp\Payroll\Payroll3\Payrollv3\Payrollv3\obj\Debug\Payrollv3.csproj.CoreCompileInputs.cache
+C:\Users\PC\Documents\GitHub\C-Sharp\Payroll\Payroll3\Payrollv3\Payrollv3\obj\Debug\Payrollv3.exe
+C:\Users\PC\Documents\GitHub\C-Sharp\Payroll\Payroll3\Payrollv3\Payrollv3\obj\Debug\Payrollv3.pdb
