@@ -13,6 +13,7 @@ namespace ConsoleApp2
             List<string> namesList = new List<string>();                    //list that stores the names of the employees entered
             List<int> payList = new List<int>();                            //list that stores the pay rates for the employees
             List<int> hoursList = new List<int>();                          //list that stores the hours worked by the employees
+            List<string> payTotal = new List<string>();
 
             while (true)                                                    //loop for the user to input employee information, continues while until the user enters X to exit
             {
@@ -36,9 +37,9 @@ namespace ConsoleApp2
 
                     int payOwed = payRate * hoursWorked;                    //operation to figure the amount that should be paid to the employee
                     string payAmount = String.Format("Pay the employee: {0:C}", payOwed); //Converts the result of payOwed to currency
+                    payTotal.Add(payAmount);
 
                     Console.WriteLine(payAmount);
-
                 }
 
                 else if (upperUserInput == "P")                             //implentation of the print option
@@ -55,6 +56,11 @@ namespace ConsoleApp2
                     }
                     Console.WriteLine("\nHours Worked: \n");
                     foreach (int element in hoursList)                      //loop to print entries in the corresponding list
+                    {
+                        Console.WriteLine(element);
+                    }
+                    Console.Write("\nPay Total: \n");
+                    foreach (string element in payTotal)                    //loop to print entries in the corresponding list
                     {
                         Console.WriteLine(element);
                     }
