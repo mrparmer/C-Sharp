@@ -1,0 +1,7 @@
+C:\Users\mparmer3\Documents\GitHub\C-Sharp\CS for Beginners Book\Exercise1\Exercise1\bin\Debug\Exercise1.exe.config
+C:\Users\mparmer3\Documents\GitHub\C-Sharp\CS for Beginners Book\Exercise1\Exercise1\bin\Debug\Exercise1.exe
+C:\Users\mparmer3\Documents\GitHub\C-Sharp\CS for Beginners Book\Exercise1\Exercise1\bin\Debug\Exercise1.pdb
+C:\Users\mparmer3\Documents\GitHub\C-Sharp\CS for Beginners Book\Exercise1\Exercise1\obj\Debug\Exercise1.csprojAssemblyReference.cache
+C:\Users\mparmer3\Documents\GitHub\C-Sharp\CS for Beginners Book\Exercise1\Exercise1\obj\Debug\Exercise1.csproj.CoreCompileInputs.cache
+C:\Users\mparmer3\Documents\GitHub\C-Sharp\CS for Beginners Book\Exercise1\Exercise1\obj\Debug\Exercise1.exe
+C:\Users\mparmer3\Documents\GitHub\C-Sharp\CS for Beginners Book\Exercise1\Exercise1\obj\Debug\Exercise1.pdb
