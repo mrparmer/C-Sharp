@@ -1,0 +1,7 @@
+C:\Users\mparmer3\Documents\GitHub\C-Sharp\CSE 1302\Parmer_HW_3\Parmer HW 3\bin\Debug\Parmer HW 3.exe.config
+C:\Users\mparmer3\Documents\GitHub\C-Sharp\CSE 1302\Parmer_HW_3\Parmer HW 3\bin\Debug\Parmer HW 3.exe
+C:\Users\mparmer3\Documents\GitHub\C-Sharp\CSE 1302\Parmer_HW_3\Parmer HW 3\bin\Debug\Parmer HW 3.pdb
+C:\Users\mparmer3\Documents\GitHub\C-Sharp\CSE 1302\Parmer_HW_3\Parmer HW 3\obj\Debug\Parmer HW 3.csprojAssemblyReference.cache
+C:\Users\mparmer3\Documents\GitHub\C-Sharp\CSE 1302\Parmer_HW_3\Parmer HW 3\obj\Debug\Parmer HW 3.csproj.CoreCompileInputs.cache
+C:\Users\mparmer3\Documents\GitHub\C-Sharp\CSE 1302\Parmer_HW_3\Parmer HW 3\obj\Debug\Parmer HW 3.exe
+C:\Users\mparmer3\Documents\GitHub\C-Sharp\CSE 1302\Parmer_HW_3\Parmer HW 3\obj\Debug\Parmer HW 3.pdb
