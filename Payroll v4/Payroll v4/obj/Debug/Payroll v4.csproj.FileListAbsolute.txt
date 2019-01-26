@@ -1,2 +1,4 @@
 C:\Users\Mparmer-Desk\Documents\GitHub\C-Sharp\Payroll v4\Payroll v4\obj\Debug\Payroll v4.csprojAssemblyReference.cache
 C:\Users\Mparmer-Desk\Documents\GitHub\C-Sharp\Payroll v4\Payroll v4\obj\Debug\Payroll v4.csproj.CoreCompileInputs.cache
+C:\Users\Mattp\Documents\C-Sharp\Payroll v4\Payroll v4\obj\Debug\Payroll v4.csprojAssemblyReference.cache
+C:\Users\Mattp\Documents\C-Sharp\Payroll v4\Payroll v4\obj\Debug\Payroll v4.csproj.CoreCompileInputs.cache

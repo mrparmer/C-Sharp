@@ -13,7 +13,8 @@ namespace ConsoleApp2
             List<string> namesList = new List<string>();                    //list that stores the names of the employees entered
             List<int> payList = new List<int>();                            //list that stores the pay rates for the employees
             List<int> hoursList = new List<int>();                          //list that stores the hours worked by the employees
-            List<string> payTotal = new List<string>();
+            List<decimal> payTotal = new List<decimal>();
+           
 
             while (true)                                                    //loop for the user to input employee information, continues while until the user enters X to exit
             {
@@ -36,33 +37,39 @@ namespace ConsoleApp2
                     hoursList.Add(hoursWorked);                             //adds entry to the appropriate list
 
                     int payOwed = payRate * hoursWorked;                    //operation to figure the amount that should be paid to the employee
-                    string payAmount = String.Format("Pay the employee: {0:C}", payOwed); //Converts the result of payOwed to currency
-                    payTotal.Add(payAmount);
-
+                    string payAmount = string.Format("Pre tax income: {0:C}", payOwed); //Converts the result of payOwed to currency
                     Console.WriteLine(payAmount);
+
+                    Console.Write("Tax to deduct?");
+                    decimal tax = Convert.ToDecimal(Console.ReadLine());
+                    decimal taxOperation = payOwed - (payOwed * tax);
+                    string taxTotal = string.Format("Pay to employee: {0:C}", taxOperation);
+                    Console.WriteLine(taxTotal);
+                    payTotal.Add(taxOperation);
                 }
 
                 else if (upperUserInput == "P")                             //implentation of the print option
                 {
-                    Console.WriteLine("\nEmployees: \n");
+                    Console.WriteLine("\nEmployee: ");
                     foreach (string element in namesList)                   //loop to print entries in the corresponding list
                     {
                         Console.WriteLine(element);
                     }
-                    Console.WriteLine("\nPay Rates: \n");           
+                    Console.WriteLine("\nPay Rate: ");           
                     foreach (int element in payList)                        //loop to print entries in the corresponding list
                     {
                         Console.WriteLine(element);
                     }
-                    Console.WriteLine("\nHours Worked: \n");
+                    Console.WriteLine("\nHours Worked: ");
                     foreach (int element in hoursList)                      //loop to print entries in the corresponding list
                     {
                         Console.WriteLine(element);
                     }
-                    Console.Write("\nPay Total: \n");
-                    foreach (string element in payTotal)                    //loop to print entries in the corresponding list
+                    Console.Write("\nPay Total: ");
+                    foreach (int element in payTotal)                        //loop to print entries in the corresponding list
                     {
-                        Console.WriteLine(element);
+                        string wageTotal = string.Format("\n{0:C}", element);
+                        Console.WriteLine(wageTotal);
                     }
                     Console.WriteLine();                                    //adds an empty line after printing the hours list, so the values of the list, and the options prompt are more readable
                 }
