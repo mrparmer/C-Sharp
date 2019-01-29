@@ -1,0 +1,15 @@
+C:\Users\mparmer3\Documents\GitHub\C-Sharp\ContactsApp\Contacts\Contacts\bin\Debug\Contacts.exe.config
+C:\Users\mparmer3\Documents\GitHub\C-Sharp\ContactsApp\Contacts\Contacts\bin\Debug\Contacts.exe
+C:\Users\mparmer3\Documents\GitHub\C-Sharp\ContactsApp\Contacts\Contacts\bin\Debug\Contacts.pdb
+C:\Users\mparmer3\Documents\GitHub\C-Sharp\ContactsApp\Contacts\Contacts\obj\Debug\Contacts.csprojAssemblyReference.cache
+C:\Users\mparmer3\Documents\GitHub\C-Sharp\ContactsApp\Contacts\Contacts\obj\Debug\MainWindow.g.cs
+C:\Users\mparmer3\Documents\GitHub\C-Sharp\ContactsApp\Contacts\Contacts\obj\Debug\App.g.cs
+C:\Users\mparmer3\Documents\GitHub\C-Sharp\ContactsApp\Contacts\Contacts\obj\Debug\Contacts_MarkupCompile.cache
+C:\Users\mparmer3\Documents\GitHub\C-Sharp\ContactsApp\Contacts\Contacts\obj\Debug\Contacts_MarkupCompile.lref
+C:\Users\mparmer3\Documents\GitHub\C-Sharp\ContactsApp\Contacts\Contacts\obj\Debug\MainWindow.baml
+C:\Users\mparmer3\Documents\GitHub\C-Sharp\ContactsApp\Contacts\Contacts\obj\Debug\Contacts.g.resources
+C:\Users\mparmer3\Documents\GitHub\C-Sharp\ContactsApp\Contacts\Contacts\obj\Debug\Contacts.Properties.Resources.resources
+C:\Users\mparmer3\Documents\GitHub\C-Sharp\ContactsApp\Contacts\Contacts\obj\Debug\Contacts.csproj.GenerateResource.cache
+C:\Users\mparmer3\Documents\GitHub\C-Sharp\ContactsApp\Contacts\Contacts\obj\Debug\Contacts.csproj.CoreCompileInputs.cache
+C:\Users\mparmer3\Documents\GitHub\C-Sharp\ContactsApp\Contacts\Contacts\obj\Debug\Contacts.exe
+C:\Users\mparmer3\Documents\GitHub\C-Sharp\ContactsApp\Contacts\Contacts\obj\Debug\Contacts.pdb

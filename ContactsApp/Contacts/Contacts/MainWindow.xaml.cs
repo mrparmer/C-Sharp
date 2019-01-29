@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using System.IO;
 
 namespace Contacts
 {
@@ -26,6 +27,16 @@ namespace Contacts
         }
 
         private void contactList_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+
+        }
+
+        private void Add_Click(object sender, RoutedEventArgs e)
+        {
+            Contacts_grid.Items.Add(new { Name = Cust_NameBox.Text, Address = Cust_AddressBox.Text, Phone = Cust_PhoneBox1.Text, Email = Cust_EmailBox.Text, Comments = Cust_CommentBox});
+        }
+
+        private void DataGrid_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
 
         }
