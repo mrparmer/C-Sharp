@@ -1,0 +1,15 @@
+C:\Users\Mattp\Documents\C-Sharp\ContactsApp\Contacts v2\ContactsV2\ContactsV2\bin\Debug\ContactsV2.exe.config
+C:\Users\Mattp\Documents\C-Sharp\ContactsApp\Contacts v2\ContactsV2\ContactsV2\bin\Debug\ContactsV2.exe
+C:\Users\Mattp\Documents\C-Sharp\ContactsApp\Contacts v2\ContactsV2\ContactsV2\bin\Debug\ContactsV2.pdb
+C:\Users\Mattp\Documents\C-Sharp\ContactsApp\Contacts v2\ContactsV2\ContactsV2\obj\Debug\ContactsV2.csprojAssemblyReference.cache
+C:\Users\Mattp\Documents\C-Sharp\ContactsApp\Contacts v2\ContactsV2\ContactsV2\obj\Debug\MainWindow.g.cs
+C:\Users\Mattp\Documents\C-Sharp\ContactsApp\Contacts v2\ContactsV2\ContactsV2\obj\Debug\App.g.cs
+C:\Users\Mattp\Documents\C-Sharp\ContactsApp\Contacts v2\ContactsV2\ContactsV2\obj\Debug\ContactsV2_MarkupCompile.cache
+C:\Users\Mattp\Documents\C-Sharp\ContactsApp\Contacts v2\ContactsV2\ContactsV2\obj\Debug\ContactsV2_MarkupCompile.lref
+C:\Users\Mattp\Documents\C-Sharp\ContactsApp\Contacts v2\ContactsV2\ContactsV2\obj\Debug\MainWindow.baml
+C:\Users\Mattp\Documents\C-Sharp\ContactsApp\Contacts v2\ContactsV2\ContactsV2\obj\Debug\ContactsV2.g.resources
+C:\Users\Mattp\Documents\C-Sharp\ContactsApp\Contacts v2\ContactsV2\ContactsV2\obj\Debug\ContactsV2.Properties.Resources.resources
+C:\Users\Mattp\Documents\C-Sharp\ContactsApp\Contacts v2\ContactsV2\ContactsV2\obj\Debug\ContactsV2.csproj.GenerateResource.cache
+C:\Users\Mattp\Documents\C-Sharp\ContactsApp\Contacts v2\ContactsV2\ContactsV2\obj\Debug\ContactsV2.csproj.CoreCompileInputs.cache
+C:\Users\Mattp\Documents\C-Sharp\ContactsApp\Contacts v2\ContactsV2\ContactsV2\obj\Debug\ContactsV2.exe
+C:\Users\Mattp\Documents\C-Sharp\ContactsApp\Contacts v2\ContactsV2\ContactsV2\obj\Debug\ContactsV2.pdb
