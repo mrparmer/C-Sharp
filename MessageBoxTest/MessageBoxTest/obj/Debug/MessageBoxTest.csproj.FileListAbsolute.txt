@@ -1,0 +1,15 @@
+C:\Users\Mattp\Documents\C-Sharp\MessageBoxTest\MessageBoxTest\bin\Debug\MessageBoxTest.exe.config
+C:\Users\Mattp\Documents\C-Sharp\MessageBoxTest\MessageBoxTest\bin\Debug\MessageBoxTest.exe
+C:\Users\Mattp\Documents\C-Sharp\MessageBoxTest\MessageBoxTest\bin\Debug\MessageBoxTest.pdb
+C:\Users\Mattp\Documents\C-Sharp\MessageBoxTest\MessageBoxTest\obj\Debug\MessageBoxTest.csprojAssemblyReference.cache
+C:\Users\Mattp\Documents\C-Sharp\MessageBoxTest\MessageBoxTest\obj\Debug\MainWindow.g.cs
+C:\Users\Mattp\Documents\C-Sharp\MessageBoxTest\MessageBoxTest\obj\Debug\App.g.cs
+C:\Users\Mattp\Documents\C-Sharp\MessageBoxTest\MessageBoxTest\obj\Debug\MessageBoxTest_MarkupCompile.cache
+C:\Users\Mattp\Documents\C-Sharp\MessageBoxTest\MessageBoxTest\obj\Debug\MessageBoxTest_MarkupCompile.lref
+C:\Users\Mattp\Documents\C-Sharp\MessageBoxTest\MessageBoxTest\obj\Debug\MainWindow.baml
+C:\Users\Mattp\Documents\C-Sharp\MessageBoxTest\MessageBoxTest\obj\Debug\MessageBoxTest.g.resources
+C:\Users\Mattp\Documents\C-Sharp\MessageBoxTest\MessageBoxTest\obj\Debug\MessageBoxTest.Properties.Resources.resources
+C:\Users\Mattp\Documents\C-Sharp\MessageBoxTest\MessageBoxTest\obj\Debug\MessageBoxTest.csproj.GenerateResource.cache
+C:\Users\Mattp\Documents\C-Sharp\MessageBoxTest\MessageBoxTest\obj\Debug\MessageBoxTest.csproj.CoreCompileInputs.cache
+C:\Users\Mattp\Documents\C-Sharp\MessageBoxTest\MessageBoxTest\obj\Debug\MessageBoxTest.exe
+C:\Users\Mattp\Documents\C-Sharp\MessageBoxTest\MessageBoxTest\obj\Debug\MessageBoxTest.pdb
