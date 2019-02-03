@@ -35,8 +35,9 @@ namespace MessageBoxTest
             Message("Button 1");
         }
 
-       
-
-        
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            Message("Button 2");
+        }
     }
 }
