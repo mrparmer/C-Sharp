@@ -1,0 +1,6 @@
+C:\Users\Mattp\Documents\C-Sharp\MethodsChallenge\MethodsChallenge\bin\Debug\MethodsChallenge.exe.config
+C:\Users\Mattp\Documents\C-Sharp\MethodsChallenge\MethodsChallenge\bin\Debug\MethodsChallenge.exe
+C:\Users\Mattp\Documents\C-Sharp\MethodsChallenge\MethodsChallenge\bin\Debug\MethodsChallenge.pdb
+C:\Users\Mattp\Documents\C-Sharp\MethodsChallenge\MethodsChallenge\obj\Debug\MethodsChallenge.csproj.CoreCompileInputs.cache
+C:\Users\Mattp\Documents\C-Sharp\MethodsChallenge\MethodsChallenge\obj\Debug\MethodsChallenge.exe
+C:\Users\Mattp\Documents\C-Sharp\MethodsChallenge\MethodsChallenge\obj\Debug\MethodsChallenge.pdb

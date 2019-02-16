@@ -1,0 +1,6 @@
+C:\Users\Mattp\Documents\C-Sharp\UserInputPractice\UserInputPractice\bin\Debug\UserInputPractice.exe.config
+C:\Users\Mattp\Documents\C-Sharp\UserInputPractice\UserInputPractice\bin\Debug\UserInputPractice.exe
+C:\Users\Mattp\Documents\C-Sharp\UserInputPractice\UserInputPractice\bin\Debug\UserInputPractice.pdb
+C:\Users\Mattp\Documents\C-Sharp\UserInputPractice\UserInputPractice\obj\Debug\UserInputPractice.csproj.CoreCompileInputs.cache
+C:\Users\Mattp\Documents\C-Sharp\UserInputPractice\UserInputPractice\obj\Debug\UserInputPractice.exe
+C:\Users\Mattp\Documents\C-Sharp\UserInputPractice\UserInputPractice\obj\Debug\UserInputPractice.pdb

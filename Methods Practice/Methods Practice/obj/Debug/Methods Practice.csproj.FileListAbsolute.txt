@@ -1,0 +1,7 @@
+C:\Users\Mattp\Documents\C-Sharp\Methods Practice\Methods Practice\bin\Debug\Methods Practice.exe.config
+C:\Users\Mattp\Documents\C-Sharp\Methods Practice\Methods Practice\bin\Debug\Methods Practice.exe
+C:\Users\Mattp\Documents\C-Sharp\Methods Practice\Methods Practice\bin\Debug\Methods Practice.pdb
+C:\Users\Mattp\Documents\C-Sharp\Methods Practice\Methods Practice\obj\Debug\Methods Practice.csprojAssemblyReference.cache
+C:\Users\Mattp\Documents\C-Sharp\Methods Practice\Methods Practice\obj\Debug\Methods Practice.csproj.CoreCompileInputs.cache
+C:\Users\Mattp\Documents\C-Sharp\Methods Practice\Methods Practice\obj\Debug\Methods Practice.exe
+C:\Users\Mattp\Documents\C-Sharp\Methods Practice\Methods Practice\obj\Debug\Methods Practice.pdb
