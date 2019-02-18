@@ -7,7 +7,11 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <DataGrid x:Name="CustomerContact" HorizontalAlignment="Left" Height="367" Margin="38,20,0,0" VerticalAlignment="Top" Width="700"/>
+        <DataGrid x:Name="CustomerContact" HorizontalAlignment="Left" Height="331" Margin="10,10,0,0" VerticalAlignment="Top" Width="772"/>
+        <Button Content="Add" HorizontalAlignment="Left" Margin="10,374,0,0" VerticalAlignment="Top" Width="100" Height="35"/>
+        <Button Content="Edit" HorizontalAlignment="Left" Margin="240,374,0,0" VerticalAlignment="Top" Width="100" Height="35"/>
+        <Button Content="Delete" HorizontalAlignment="Left" Margin="682,374,0,0" VerticalAlignment="Top" Width="100" Height="35"/>
+        <Button Content="Save" HorizontalAlignment="Left" Margin="465,374,0,0" VerticalAlignment="Top" Width="100" Height="35"/>
 
     </Grid>
 </Window>

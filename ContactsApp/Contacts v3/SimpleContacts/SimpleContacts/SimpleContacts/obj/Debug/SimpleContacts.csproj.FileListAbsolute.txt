@@ -1,0 +1,9 @@
+C:\Users\Mattp\Documents\C-Sharp\ContactsApp\Contacts v3\SimpleContacts\SimpleContacts\SimpleContacts\bin\Debug\SimpleContacts.exe.config
+C:\Users\Mattp\Documents\C-Sharp\ContactsApp\Contacts v3\SimpleContacts\SimpleContacts\SimpleContacts\bin\Debug\SimpleContacts.exe
+C:\Users\Mattp\Documents\C-Sharp\ContactsApp\Contacts v3\SimpleContacts\SimpleContacts\SimpleContacts\bin\Debug\SimpleContacts.pdb
+C:\Users\Mattp\Documents\C-Sharp\ContactsApp\Contacts v3\SimpleContacts\SimpleContacts\SimpleContacts\obj\Debug\SimpleContacts.Properties.Resources.resources
+C:\Users\Mattp\Documents\C-Sharp\ContactsApp\Contacts v3\SimpleContacts\SimpleContacts\SimpleContacts\obj\Debug\SimpleContacts.csproj.GenerateResource.cache
+C:\Users\Mattp\Documents\C-Sharp\ContactsApp\Contacts v3\SimpleContacts\SimpleContacts\SimpleContacts\obj\Debug\SimpleContacts.csproj.CoreCompileInputs.cache
+C:\Users\Mattp\Documents\C-Sharp\ContactsApp\Contacts v3\SimpleContacts\SimpleContacts\SimpleContacts\obj\Debug\SimpleContacts.exe
+C:\Users\Mattp\Documents\C-Sharp\ContactsApp\Contacts v3\SimpleContacts\SimpleContacts\SimpleContacts\obj\Debug\SimpleContacts.pdb
+C:\Users\Mattp\Documents\C-Sharp\ContactsApp\Contacts v3\SimpleContacts\SimpleContacts\SimpleContacts\obj\Debug\SimpleContacts.AddressbBookV1.resources

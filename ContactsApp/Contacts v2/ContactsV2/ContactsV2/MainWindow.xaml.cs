@@ -12,22 +12,41 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using System.IO;
 
 namespace ContactsV2
 {
     public class Customer
     {
-        public string name { get; set; }
-        public string phoneNumber { get; set; }
-        public string address { get; set; }        
-        public string emailAddress { get; set; }
-        public string comments { get; set; }
-        public DateTime lastContact { get; set; }    
+        public string Name { get; set; }
+        public string PhoneNumber { get; set; }
+        public string Address { get; set; }        
+        public string Email { get; set; }
+        public string Comments { get; set; }
+        public DateTime LastContacted { get; set; }    
+
+        public Customer (string name, string phoneNumber, string address, string emailAddress, string comments, DateTime lastContact)
+        {
+            Name = name;
+            PhoneNumber = phoneNumber;
+            Address = address;
+            Email = emailAddress;
+            Comments = comments;
+            LastContacted = lastContact;
+        }
        
     }
+    
+    public static IEnumerable<Customer> ReadCSV(string filename)
+    {
+        string[] lines = File.ReadAllLines(System.IO.Path.ChangeExtension(filename, ".csv"));
 
- 
-
+        return lines.Select(line =>
+        {
+            string[] data = line.Split(',');
+            return new Customer(data[0], data[1], data[2], data[3], data[4], Convert.ToDateTime(data[5]));
+        });
+    }
     public partial class MainWindow : Window
     {
         
@@ -36,21 +55,6 @@ namespace ContactsV2
             InitializeComponent();
             CustomerContact.ItemsSource = LoadCollectionData();
         }
-        private List<Customer> LoadCollectionData()
-        {
-            List<Customer> customers = new List<Customer>();
-            customers.Add(new Customer()
-            {
-                name = "Matt",
-                phoneNumber = "4704308289",
-                address = "6468 Pisgah Rd SW, Austell, GA 30168",
-                emailAddress = "m.r.parmer@gmail.com",
-                comments = "Funny guy",
-                lastContact = new DateTime(2019, 1, 29),
-            });
-
-            return customers;
-
-        }
+        
     }
 }
