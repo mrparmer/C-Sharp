@@ -26,7 +26,7 @@ namespace Calculator
 
         private void Button13_Click(object sender, EventArgs e)
         {
-            this.resultsBox.Text = "";
+            operand1 = input;
             operation = '+';
             input = string.Empty;
         }
@@ -107,30 +107,30 @@ namespace Calculator
 
         private void Percent_Click(object sender, EventArgs e)
         {
-            this.resultsBox.Text = "";
+            operand1 = input;
             operation = '%';
-            this.resultsBox.Text += input;
+            input = string.Empty;
         }
 
         private void Divide_Click(object sender, EventArgs e)
         {
-            this.resultsBox.Text = "";
+            operand1 = input;
             operation = '/';
-            this.resultsBox.Text += input;
+            input = string.Empty;
         }
 
         private void Multiply_Click(object sender, EventArgs e)
         {
-            this.resultsBox.Text = "";
+            operand1 = input;
             operation = '*';
-            this.resultsBox.Text += input;
+            input = string.Empty;
         }
 
         private void Subtract_Click(object sender, EventArgs e)
         {
-            this.resultsBox.Text = "";
+            operand1 = input;
             operation = '-';
-            this.resultsBox.Text += input;
+            input = string.Empty;
         }
 
         private void Button15_Click(object sender, EventArgs e)
@@ -172,6 +172,41 @@ namespace Calculator
                 result = num1 + num2;
                 resultsBox.Text = result.ToString();
             }
+            else if ( operation == '-')
+            {
+                result = num1 - num2;
+                resultsBox.Text = result.ToString();
+            }
+            else if (operation == '*')
+            {
+                result = num1 * num2;
+                resultsBox.Text = result.ToString();
+            }
+            else if (operation == '/')
+            {
+                if (num2 != 0)
+                {
+                    result = num1 / num2;
+                    resultsBox.Text = result.ToString();
+                }
+                else
+                {
+                    resultsBox.Text = "You cannot divide by 0.";
+                }
+            }
+            else if (operation == '^')
+            {
+                result = Math.Pow(num1, num2);
+                resultsBox.Text = result.ToString();
+            }
+
+        }
+
+        private void exponent_Click(object sender, EventArgs e)
+        {
+            operand1 = input;
+            operation = '^';
+            input = string.Empty;
         }
     }
 }
