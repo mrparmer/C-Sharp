@@ -35,7 +35,6 @@
             this.txtPhone = new System.Windows.Forms.TextBox();
             this.txtAddress = new System.Windows.Forms.TextBox();
             this.btnAddContact = new System.Windows.Forms.Button();
-            this.contactsList = new System.Windows.Forms.ListBox();
             this.txtEmail = new System.Windows.Forms.TextBox();
             this.txtComment = new System.Windows.Forms.TextBox();
             this.txtContacted = new System.Windows.Forms.TextBox();
@@ -44,6 +43,7 @@
             this.lastContactLabel = new System.Windows.Forms.Label();
             this.btnDateSort = new System.Windows.Forms.Button();
             this.ContactsLbl = new System.Windows.Forms.Label();
+            this.contactsList = new System.Windows.Forms.ListBox();
             this.SuspendLayout();
             // 
             // nameLabel
@@ -110,16 +110,6 @@
             this.btnAddContact.Text = "Add Contact";
             this.btnAddContact.UseVisualStyleBackColor = true;
             this.btnAddContact.Click += new System.EventHandler(this.btnAddContact_Click);
-            // 
-            // contactsList
-            // 
-            this.contactsList.FormattingEnabled = true;
-            this.contactsList.ItemHeight = 16;
-            this.contactsList.Location = new System.Drawing.Point(282, 45);
-            this.contactsList.Margin = new System.Windows.Forms.Padding(4);
-            this.contactsList.Name = "contactsList";
-            this.contactsList.Size = new System.Drawing.Size(629, 308);
-            this.contactsList.TabIndex = 99;
             // 
             // txtEmail
             // 
@@ -195,6 +185,17 @@
             this.ContactsLbl.Text = "Contacts:";
             this.ContactsLbl.Click += new System.EventHandler(this.label1_Click);
             // 
+            // contactsList
+            // 
+            this.contactsList.FormattingEnabled = true;
+            this.contactsList.ItemHeight = 16;
+            this.contactsList.Location = new System.Drawing.Point(282, 45);
+            this.contactsList.Margin = new System.Windows.Forms.Padding(4);
+            this.contactsList.Name = "contactsList";
+            this.contactsList.Size = new System.Drawing.Size(629, 308);
+            this.contactsList.TabIndex = 99;
+            this.contactsList.SelectedIndexChanged += new System.EventHandler(this.contactsList_SelectedIndexChanged);
+            // 
             // AddressbBookV1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -235,7 +236,6 @@
         private System.Windows.Forms.TextBox txtPhone;
         private System.Windows.Forms.TextBox txtAddress;
         private System.Windows.Forms.Button btnAddContact;
-        private System.Windows.Forms.ListBox contactsList;
         private System.Windows.Forms.TextBox txtEmail;
         private System.Windows.Forms.TextBox txtComment;
         private System.Windows.Forms.TextBox txtContacted;
@@ -244,6 +244,7 @@
         private System.Windows.Forms.Label lastContactLabel;
         private System.Windows.Forms.Button btnDateSort;
         private System.Windows.Forms.Label ContactsLbl;
+        private System.Windows.Forms.ListBox contactsList;
     }
 }
 

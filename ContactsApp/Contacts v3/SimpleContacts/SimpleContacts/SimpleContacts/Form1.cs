@@ -22,7 +22,7 @@ namespace SimpleContacts
 
         private void Write(Contact obj)
         {
-            //try {
+            //loads the file into memory for SW to write to. Also sets the different fields as objects so they can be written to the text file
                 StreamWriter sw = new StreamWriter("contacts.txt", true);
                 sw.WriteLine(addressBook.Length + 1);
                 sw.WriteLine(obj.Name);
@@ -43,10 +43,7 @@ namespace SimpleContacts
                 }
                 sw.Close();
             
-            //catch(Exception e)
-            //{
-            //    Console.Write(e);
-            //}
+            
             }
 
 
@@ -177,6 +174,11 @@ namespace SimpleContacts
         }
 
         private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void contactsList_SelectedIndexChanged(object sender, EventArgs e)
         {
 
         }
