@@ -43,13 +43,14 @@
             this.subtract = new System.Windows.Forms.Button();
             this.add = new System.Windows.Forms.Button();
             this.equals = new System.Windows.Forms.Button();
-            this.button15 = new System.Windows.Forms.Button();
+            this.dec = new System.Windows.Forms.Button();
             this.divide = new System.Windows.Forms.Button();
             this.percent = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // resultsBox
             // 
+            this.resultsBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.resultsBox.Location = new System.Drawing.Point(9, 7);
             this.resultsBox.Multiline = true;
             this.resultsBox.Name = "resultsBox";
@@ -67,6 +68,7 @@
             this.zero.TabIndex = 2;
             this.zero.Text = "0";
             this.zero.UseVisualStyleBackColor = true;
+            this.zero.Click += new System.EventHandler(this.Zero_Click);
             // 
             // oneBtn
             // 
@@ -88,6 +90,7 @@
             this.twoBtn.TabIndex = 4;
             this.twoBtn.Text = "2";
             this.twoBtn.UseVisualStyleBackColor = true;
+            this.twoBtn.Click += new System.EventHandler(this.TwoBtn_Click);
             // 
             // threeBtn
             // 
@@ -98,6 +101,7 @@
             this.threeBtn.TabIndex = 5;
             this.threeBtn.Text = "3";
             this.threeBtn.UseVisualStyleBackColor = true;
+            this.threeBtn.Click += new System.EventHandler(this.ThreeBtn_Click);
             // 
             // nineBtn
             // 
@@ -108,6 +112,7 @@
             this.nineBtn.TabIndex = 6;
             this.nineBtn.Text = "9";
             this.nineBtn.UseVisualStyleBackColor = true;
+            this.nineBtn.Click += new System.EventHandler(this.NineBtn_Click);
             // 
             // sixBtn
             // 
@@ -118,6 +123,7 @@
             this.sixBtn.TabIndex = 7;
             this.sixBtn.Text = "6";
             this.sixBtn.UseVisualStyleBackColor = true;
+            this.sixBtn.Click += new System.EventHandler(this.SixBtn_Click);
             // 
             // fiveBtn
             // 
@@ -128,6 +134,7 @@
             this.fiveBtn.TabIndex = 8;
             this.fiveBtn.Text = "5";
             this.fiveBtn.UseVisualStyleBackColor = true;
+            this.fiveBtn.Click += new System.EventHandler(this.FiveBtn_Click);
             // 
             // fourBtn
             // 
@@ -138,6 +145,7 @@
             this.fourBtn.TabIndex = 9;
             this.fourBtn.Text = "4";
             this.fourBtn.UseVisualStyleBackColor = true;
+            this.fourBtn.Click += new System.EventHandler(this.FourBtn_Click);
             // 
             // multiply
             // 
@@ -148,6 +156,7 @@
             this.multiply.TabIndex = 10;
             this.multiply.Text = "*";
             this.multiply.UseVisualStyleBackColor = true;
+            this.multiply.Click += new System.EventHandler(this.Multiply_Click);
             // 
             // sevenBtn
             // 
@@ -158,6 +167,7 @@
             this.sevenBtn.TabIndex = 11;
             this.sevenBtn.Text = "7";
             this.sevenBtn.UseVisualStyleBackColor = true;
+            this.sevenBtn.Click += new System.EventHandler(this.SevenBtn_Click);
             // 
             // eightBtn
             // 
@@ -168,6 +178,7 @@
             this.eightBtn.TabIndex = 12;
             this.eightBtn.Text = "8";
             this.eightBtn.UseVisualStyleBackColor = true;
+            this.eightBtn.Click += new System.EventHandler(this.EightBtn_Click);
             // 
             // subtract
             // 
@@ -179,6 +190,7 @@
             this.subtract.TabIndex = 13;
             this.subtract.Text = "-";
             this.subtract.UseVisualStyleBackColor = true;
+            this.subtract.Click += new System.EventHandler(this.Subtract_Click);
             // 
             // add
             // 
@@ -201,15 +213,16 @@
             this.equals.Text = "=";
             this.equals.UseVisualStyleBackColor = true;
             // 
-            // button15
+            // dec
             // 
-            this.button15.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button15.Location = new System.Drawing.Point(9, 319);
-            this.button15.Name = "button15";
-            this.button15.Size = new System.Drawing.Size(85, 51);
-            this.button15.TabIndex = 16;
-            this.button15.Text = ".";
-            this.button15.UseVisualStyleBackColor = true;
+            this.dec.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dec.Location = new System.Drawing.Point(9, 319);
+            this.dec.Name = "dec";
+            this.dec.Size = new System.Drawing.Size(85, 51);
+            this.dec.TabIndex = 16;
+            this.dec.Text = ".";
+            this.dec.UseVisualStyleBackColor = true;
+            this.dec.Click += new System.EventHandler(this.Button15_Click);
             // 
             // divide
             // 
@@ -220,6 +233,7 @@
             this.divide.TabIndex = 17;
             this.divide.Text = "/";
             this.divide.UseVisualStyleBackColor = true;
+            this.divide.Click += new System.EventHandler(this.Divide_Click);
             // 
             // percent
             // 
@@ -230,6 +244,7 @@
             this.percent.TabIndex = 18;
             this.percent.Text = "%";
             this.percent.UseVisualStyleBackColor = true;
+            this.percent.Click += new System.EventHandler(this.Percent_Click);
             // 
             // Calculator
             // 
@@ -238,7 +253,7 @@
             this.ClientSize = new System.Drawing.Size(384, 390);
             this.Controls.Add(this.percent);
             this.Controls.Add(this.divide);
-            this.Controls.Add(this.button15);
+            this.Controls.Add(this.dec);
             this.Controls.Add(this.equals);
             this.Controls.Add(this.add);
             this.Controls.Add(this.subtract);
@@ -278,7 +293,7 @@
         private System.Windows.Forms.Button subtract;
         private System.Windows.Forms.Button add;
         private System.Windows.Forms.Button equals;
-        private System.Windows.Forms.Button button15;
+        private System.Windows.Forms.Button dec;
         private System.Windows.Forms.Button divide;
         private System.Windows.Forms.Button percent;
     }

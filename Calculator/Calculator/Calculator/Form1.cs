@@ -26,7 +26,9 @@ namespace Calculator
 
         private void Button13_Click(object sender, EventArgs e)
         {
-
+            this.resultsBox.Text = "";
+            input += "+";
+            this.resultsBox.Text += input;
         }
         private void button_Click(object sender, EventArgs e)
         {
@@ -45,6 +47,104 @@ namespace Calculator
             input += "1";
             this.resultsBox.Text += input;
 
+        }
+
+        private void TwoBtn_Click(object sender, EventArgs e)
+        {
+            this.resultsBox.Text = "";
+            input += "2";
+            this.resultsBox.Text += input;
+        }
+
+        private void ThreeBtn_Click(object sender, EventArgs e)
+        {
+            this.resultsBox.Text = "";
+            input += "3";
+            this.resultsBox.Text += input;
+        }
+
+        private void FourBtn_Click(object sender, EventArgs e)
+        {
+            this.resultsBox.Text = "";
+            input += "4";
+            this.resultsBox.Text += input;
+        }
+
+        private void FiveBtn_Click(object sender, EventArgs e)
+        {
+            this.resultsBox.Text = "";
+            input += "5";
+            this.resultsBox.Text += input;
+        }
+
+        private void SixBtn_Click(object sender, EventArgs e)
+        {
+            this.resultsBox.Text = "";
+            input += "6";
+            this.resultsBox.Text += input;
+        }
+
+        private void SevenBtn_Click(object sender, EventArgs e)
+        {
+            this.resultsBox.Text = "";
+            input += "7";
+            this.resultsBox.Text += input;
+        }
+
+        private void EightBtn_Click(object sender, EventArgs e)
+        {
+            this.resultsBox.Text = "";
+            input += "8";
+            this.resultsBox.Text += input;
+        }
+
+        private void NineBtn_Click(object sender, EventArgs e)
+        {
+            this.resultsBox.Text = "";
+            input += "9";
+            this.resultsBox.Text += input;
+        }
+
+        private void Percent_Click(object sender, EventArgs e)
+        {
+            this.resultsBox.Text = "";
+            input += "%";
+            this.resultsBox.Text += input;
+        }
+
+        private void Divide_Click(object sender, EventArgs e)
+        {
+            this.resultsBox.Text = "";
+            input += "/";
+            this.resultsBox.Text += input;
+        }
+
+        private void Multiply_Click(object sender, EventArgs e)
+        {
+            this.resultsBox.Text = "";
+            input += "*";
+            this.resultsBox.Text += input;
+        }
+
+        private void Subtract_Click(object sender, EventArgs e)
+        {
+            this.resultsBox.Text = "";
+            input += "-";
+            this.resultsBox.Text += input;
+        }
+
+        private void Button15_Click(object sender, EventArgs e)
+        {
+            this.resultsBox.Text = "";
+            input += ".";
+            this.resultsBox.Text += input;
+        }
+
+        private void Zero_Click(object sender, EventArgs e)
+        {
+            this.resultsBox.Text = "";
+            input += "1";
+            this.resultsBox.Text += input;
         }
     }
 }
