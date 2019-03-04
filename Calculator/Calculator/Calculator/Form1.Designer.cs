@@ -46,6 +46,7 @@
             this.dec = new System.Windows.Forms.Button();
             this.divide = new System.Windows.Forms.Button();
             this.percent = new System.Windows.Forms.Button();
+            this.clrBtn = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // resultsBox
@@ -212,6 +213,7 @@
             this.equals.TabIndex = 15;
             this.equals.Text = "=";
             this.equals.UseVisualStyleBackColor = true;
+            this.equals.Click += new System.EventHandler(this.equals_Click);
             // 
             // dec
             // 
@@ -246,11 +248,23 @@
             this.percent.UseVisualStyleBackColor = true;
             this.percent.Click += new System.EventHandler(this.Percent_Click);
             // 
+            // clrBtn
+            // 
+            this.clrBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.clrBtn.Location = new System.Drawing.Point(9, 100);
+            this.clrBtn.Name = "clrBtn";
+            this.clrBtn.Size = new System.Drawing.Size(85, 42);
+            this.clrBtn.TabIndex = 19;
+            this.clrBtn.Text = "C";
+            this.clrBtn.UseVisualStyleBackColor = true;
+            this.clrBtn.Click += new System.EventHandler(this.clrBtn_Click);
+            // 
             // Calculator
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(384, 390);
+            this.Controls.Add(this.clrBtn);
             this.Controls.Add(this.percent);
             this.Controls.Add(this.divide);
             this.Controls.Add(this.dec);
@@ -296,6 +310,7 @@
         private System.Windows.Forms.Button dec;
         private System.Windows.Forms.Button divide;
         private System.Windows.Forms.Button percent;
+        private System.Windows.Forms.Button clrBtn;
     }
 }
 

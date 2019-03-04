@@ -27,8 +27,8 @@ namespace Calculator
         private void Button13_Click(object sender, EventArgs e)
         {
             this.resultsBox.Text = "";
-            input += "+";
-            this.resultsBox.Text += input;
+            operation = '+';
+            input = string.Empty;
         }
         private void button_Click(object sender, EventArgs e)
         {
@@ -108,28 +108,28 @@ namespace Calculator
         private void Percent_Click(object sender, EventArgs e)
         {
             this.resultsBox.Text = "";
-            input += "%";
+            operation = '%';
             this.resultsBox.Text += input;
         }
 
         private void Divide_Click(object sender, EventArgs e)
         {
             this.resultsBox.Text = "";
-            input += "/";
+            operation = '/';
             this.resultsBox.Text += input;
         }
 
         private void Multiply_Click(object sender, EventArgs e)
         {
             this.resultsBox.Text = "";
-            input += "*";
+            operation = '*';
             this.resultsBox.Text += input;
         }
 
         private void Subtract_Click(object sender, EventArgs e)
         {
             this.resultsBox.Text = "";
-            input += "-";
+            operation = '-';
             this.resultsBox.Text += input;
         }
 
@@ -143,8 +143,35 @@ namespace Calculator
         private void Zero_Click(object sender, EventArgs e)
         {
             this.resultsBox.Text = "";
-            input += "1";
+            input += "0";
             this.resultsBox.Text += input;
+        }
+
+        private void clrBtn_Click(object sender, EventArgs e)
+        {
+            this.resultsBox.Text = "";
+            this.input = string.Empty;
+            this.operand1 = string.Empty;
+            this.operand2 = string.Empty;
+        }
+
+        private void equals_Click(object sender, EventArgs e)
+        {
+            operand2 = input;
+            double num1, num2;
+            double.TryParse(operand1, out num1);
+            double.TryParse(operand2, out num2);
+
+            this.resultsBox.Text = "";
+            this.input = string.Empty;
+            this.operand1 = string.Empty;
+            this.operand1 = string.Empty;
+
+            if ( operation == '+')
+            {
+                result = num1 + num2;
+                resultsBox.Text = result.ToString();
+            }
         }
     }
 }
