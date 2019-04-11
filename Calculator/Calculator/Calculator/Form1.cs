@@ -12,7 +12,6 @@ namespace Calculator
 {
     public partial class Calculator : Form
     {
-
         string input = string.Empty;
         string operand1 = string.Empty;
         string operand2 = string.Empty;
@@ -22,131 +21,117 @@ namespace Calculator
         public Calculator()
         {
             InitializeComponent();
-        }
-
-        private void Button13_Click(object sender, EventArgs e)
-        {
-            operand1 = input;
-            operation = '+';
-            input = string.Empty;
-        }
+        }       
         private void button_Click(object sender, EventArgs e)
         {
             Button oneBtn = (Button)sender;
             resultsBox.Text = resultsBox.Text + oneBtn;
         }
-
         private void ResultsBox_TextChanged(object sender, EventArgs e)
         {
-
         }
-
         private void OneBtn_Click(object sender, EventArgs e)
         {
             this.resultsBox.Text = "";
             input += "1";
             this.resultsBox.Text += input;
-
         }
-
         private void TwoBtn_Click(object sender, EventArgs e)
         {
             this.resultsBox.Text = "";
             input += "2";
             this.resultsBox.Text += input;
         }
-
         private void ThreeBtn_Click(object sender, EventArgs e)
         {
             this.resultsBox.Text = "";
             input += "3";
             this.resultsBox.Text += input;
         }
-
         private void FourBtn_Click(object sender, EventArgs e)
         {
             this.resultsBox.Text = "";
             input += "4";
             this.resultsBox.Text += input;
         }
-
         private void FiveBtn_Click(object sender, EventArgs e)
         {
             this.resultsBox.Text = "";
             input += "5";
             this.resultsBox.Text += input;
         }
-
         private void SixBtn_Click(object sender, EventArgs e)
         {
             this.resultsBox.Text = "";
             input += "6";
             this.resultsBox.Text += input;
         }
-
         private void SevenBtn_Click(object sender, EventArgs e)
         {
             this.resultsBox.Text = "";
             input += "7";
             this.resultsBox.Text += input;
         }
-
         private void EightBtn_Click(object sender, EventArgs e)
         {
             this.resultsBox.Text = "";
             input += "8";
             this.resultsBox.Text += input;
         }
-
         private void NineBtn_Click(object sender, EventArgs e)
         {
             this.resultsBox.Text = "";
             input += "9";
             this.resultsBox.Text += input;
-        }
-
-        private void Percent_Click(object sender, EventArgs e)
-        {
-            operand1 = input;
-            operation = '%';
-            input = string.Empty;
-        }
-
-        private void Divide_Click(object sender, EventArgs e)
-        {
-            operand1 = input;
-            operation = '/';
-            input = string.Empty;
-        }
-
-        private void Multiply_Click(object sender, EventArgs e)
-        {
-            operand1 = input;
-            operation = '*';
-            input = string.Empty;
-        }
-
-        private void Subtract_Click(object sender, EventArgs e)
-        {
-            operand1 = input;
-            operation = '-';
-            input = string.Empty;
-        }
-
-        private void Button15_Click(object sender, EventArgs e)
-        {
-            this.resultsBox.Text = "";
-            input += ".";
-            this.resultsBox.Text += input;
-        }
-
+        }         
         private void Zero_Click(object sender, EventArgs e)
         {
             this.resultsBox.Text = "";
             input += "0";
             this.resultsBox.Text += input;
         }
-
+        private void Button15_Click(object sender, EventArgs e)
+        {
+            this.resultsBox.Text = "";
+            input += ".";
+            this.resultsBox.Text += input;
+        }
+        private void Button13_Click(object sender, EventArgs e)
+        {
+            operand1 = input;
+            operation = '+';
+            input = string.Empty;
+        }
+        private void Percent_Click(object sender, EventArgs e)
+        {
+            operand1 = input;
+            operation = '%';
+            input = string.Empty;
+        }
+        private void exponent_Click(object sender, EventArgs e)
+        {
+            operand1 = input;
+            operation = '^';
+            input = string.Empty;
+        }
+        private void Divide_Click(object sender, EventArgs e)
+        {
+            operand1 = input;
+            operation = '/';
+            input = string.Empty;
+        }
+        private void Multiply_Click(object sender, EventArgs e)
+        {
+            operand1 = input;
+            operation = '*';
+            input = string.Empty;
+        }
+        private void Subtract_Click(object sender, EventArgs e)
+        {
+            operand1 = input;
+            operation = '-';
+            input = string.Empty;
+        }
         private void clrBtn_Click(object sender, EventArgs e)
         {
             this.resultsBox.Text = "";
@@ -154,7 +139,6 @@ namespace Calculator
             this.operand1 = string.Empty;
             this.operand2 = string.Empty;
         }
-
         private void equals_Click(object sender, EventArgs e)
         {
             operand2 = input;
@@ -199,14 +183,11 @@ namespace Calculator
                 result = Math.Pow(num1, num2);
                 resultsBox.Text = result.ToString();
             }
-
-        }
-
-        private void exponent_Click(object sender, EventArgs e)
-        {
-            operand1 = input;
-            operation = '^';
-            input = string.Empty;
-        }
+            else if ( operation =='%')
+            {
+                result = num2/num1;
+                resultsBox.Text = result.ToString();
+            }
+        }        
     }
 }

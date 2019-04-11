@@ -1,0 +1,11 @@
+C:\Users\mparmer3\Documents\GitHub\C-Sharp\DistanceConversion\DistanceConversion\bin\Debug\netcoreapp2.1\DistanceConversion.deps.json
+C:\Users\mparmer3\Documents\GitHub\C-Sharp\DistanceConversion\DistanceConversion\bin\Debug\netcoreapp2.1\DistanceConversion.runtimeconfig.json
+C:\Users\mparmer3\Documents\GitHub\C-Sharp\DistanceConversion\DistanceConversion\bin\Debug\netcoreapp2.1\DistanceConversion.runtimeconfig.dev.json
+C:\Users\mparmer3\Documents\GitHub\C-Sharp\DistanceConversion\DistanceConversion\bin\Debug\netcoreapp2.1\DistanceConversion.dll
+C:\Users\mparmer3\Documents\GitHub\C-Sharp\DistanceConversion\DistanceConversion\bin\Debug\netcoreapp2.1\DistanceConversion.pdb
+C:\Users\mparmer3\Documents\GitHub\C-Sharp\DistanceConversion\DistanceConversion\obj\Debug\netcoreapp2.1\DistanceConversion.csprojAssemblyReference.cache
+C:\Users\mparmer3\Documents\GitHub\C-Sharp\DistanceConversion\DistanceConversion\obj\Debug\netcoreapp2.1\DistanceConversion.csproj.CoreCompileInputs.cache
+C:\Users\mparmer3\Documents\GitHub\C-Sharp\DistanceConversion\DistanceConversion\obj\Debug\netcoreapp2.1\DistanceConversion.AssemblyInfoInputs.cache
+C:\Users\mparmer3\Documents\GitHub\C-Sharp\DistanceConversion\DistanceConversion\obj\Debug\netcoreapp2.1\DistanceConversion.AssemblyInfo.cs
+C:\Users\mparmer3\Documents\GitHub\C-Sharp\DistanceConversion\DistanceConversion\obj\Debug\netcoreapp2.1\DistanceConversion.dll
+C:\Users\mparmer3\Documents\GitHub\C-Sharp\DistanceConversion\DistanceConversion\obj\Debug\netcoreapp2.1\DistanceConversion.pdb
