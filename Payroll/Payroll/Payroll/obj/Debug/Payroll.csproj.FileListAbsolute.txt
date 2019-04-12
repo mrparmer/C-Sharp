@@ -1,7 +1,0 @@
-C:\Users\Mparmer-Desk\Documents\GitHub\C-Sharp\Payroll\Payroll\Payroll\obj\Debug\Payroll.csprojResolveAssemblyReference.cache
-C:\Users\Mparmer-Desk\Documents\GitHub\C-Sharp\Payroll\Payroll\Payroll\obj\Debug\Payroll.csproj.CoreCompileInputs.cache
-C:\Users\Mparmer-Desk\Documents\GitHub\C-Sharp\Payroll\Payroll\Payroll\bin\Debug\Payroll.exe.config
-C:\Users\Mparmer-Desk\Documents\GitHub\C-Sharp\Payroll\Payroll\Payroll\bin\Debug\Payroll.exe
-C:\Users\Mparmer-Desk\Documents\GitHub\C-Sharp\Payroll\Payroll\Payroll\bin\Debug\Payroll.pdb
-C:\Users\Mparmer-Desk\Documents\GitHub\C-Sharp\Payroll\Payroll\Payroll\obj\Debug\Payroll.exe
-C:\Users\Mparmer-Desk\Documents\GitHub\C-Sharp\Payroll\Payroll\Payroll\obj\Debug\Payroll.pdb
