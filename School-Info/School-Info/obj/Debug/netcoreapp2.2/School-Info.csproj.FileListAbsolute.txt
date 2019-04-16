@@ -1,0 +1,11 @@
+C:\Users\Mattp\Documents\C-Sharp\School-Info\School-Info\bin\Debug\netcoreapp2.2\School-Info.deps.json
+C:\Users\Mattp\Documents\C-Sharp\School-Info\School-Info\bin\Debug\netcoreapp2.2\School-Info.runtimeconfig.json
+C:\Users\Mattp\Documents\C-Sharp\School-Info\School-Info\bin\Debug\netcoreapp2.2\School-Info.runtimeconfig.dev.json
+C:\Users\Mattp\Documents\C-Sharp\School-Info\School-Info\bin\Debug\netcoreapp2.2\School-Info.dll
+C:\Users\Mattp\Documents\C-Sharp\School-Info\School-Info\bin\Debug\netcoreapp2.2\School-Info.pdb
+C:\Users\Mattp\Documents\C-Sharp\School-Info\School-Info\obj\Debug\netcoreapp2.2\School-Info.csprojAssemblyReference.cache
+C:\Users\Mattp\Documents\C-Sharp\School-Info\School-Info\obj\Debug\netcoreapp2.2\School-Info.csproj.CoreCompileInputs.cache
+C:\Users\Mattp\Documents\C-Sharp\School-Info\School-Info\obj\Debug\netcoreapp2.2\School-Info.AssemblyInfoInputs.cache
+C:\Users\Mattp\Documents\C-Sharp\School-Info\School-Info\obj\Debug\netcoreapp2.2\School-Info.AssemblyInfo.cs
+C:\Users\Mattp\Documents\C-Sharp\School-Info\School-Info\obj\Debug\netcoreapp2.2\School-Info.dll
+C:\Users\Mattp\Documents\C-Sharp\School-Info\School-Info\obj\Debug\netcoreapp2.2\School-Info.pdb
