@@ -6,9 +6,23 @@ namespace TextGame
 {
     class Monster
     {
-       public static void MonsterStats()
+        Program randomNum = new Program();
+        int health;
+        int strength;
+        double dmgDone;
+        public void MonsterStats()
         {
-            int health;
+            strength = randomNum.RandomNumber(0, 10);
+            health = randomNum.RandomNumber(5, 20);
+        }
+        public int Attack(int damage)
+        {
+            dmgDone = strength * 1.5;
+            dmgDone = damage;
+            return damage;
+        }
+        public static void MonsterClass()
+        {
 
         }
     }

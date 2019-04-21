@@ -1,4 +1,5 @@
 ﻿using System;
+using System.IO;
 
 namespace TextGame
 {
@@ -6,7 +7,13 @@ namespace TextGame
     {
         static void Main(string[] args)
         {
+            TextGame();
+        }
+        public static void TextGame() {
             PlayerClass player = new PlayerClass();
+            choice1_1 Choice1 = new choice1_1();
+            choice1_2 Choice2 = new choice1_2();
+            choice1_3 Choice3 = new choice1_3();
 
             Console.WriteLine("Hello welcome to the world, here you will find friends, monsters, treasure, and intrigue.\n" +
                 "You will be provided choices, choose which one you wish to proceed with carefully, if you fail in your quest you will have to begin again.");
@@ -20,47 +27,44 @@ namespace TextGame
                              "\ndon't forget to rest after each or your health won't regenerate." +
                              "\nYou will also find powerful items that will increase your health, watch out for those!\n");
 
-            Console.WriteLine("The story begins; \n" +
-                              "You wake up, alone, on a lonely beach, with no memory of how you got there. \n" +
+            Console.WriteLine("The story begins;\n" +
+                              "You wake up, alone, on a lonely beach, with no memory of how you got there. It's starting to get cold.\n" +
                               "What do you do?\n");
 
-            Console.WriteLine("(T)ake stock of your surroundings, and what you have on you. \n" +
-                              "(S)hout and see if anyone is around.\n" +
-                              "(B)egin walking, looking for signs of people.\n");
+            Console.WriteLine("1. Take stock of your surroundings, and what you have on you, or what you can find nearby.\n" +
+                              "2. Shout and see if anyone is around.\n" +
+                              "3. Begin walking, looking for signs of people.\n");
 
             while (true)
             {
-                string userInput = Console.ReadLine();
-                if (userInput == "T")
+                int userInput = Int32.Parse(Console.ReadLine());
+                if (userInput == 1)
                 {
-                    Console.WriteLine("You look around you and notice that there are no footprints leading to where you were laying, " +
-                                      "\nthere are no sticks, shells, there is nothing. \n" +
-                                      "You pat yourself down and discover you are wearing nothing but a thin overshirt, and light pants.\n" +
-                                      "It's starting to get cold.\n");
-
+                    Choice1.choice1();
+                    player.Exertion();
                     break;
                 }
-                else if (userInput == "S")
+                else if (userInput == 2)
                 {
-                    Console.WriteLine("You yell. You shout until you are hoarse, and no one is answering you, you are well and truly alone, it's starting to get cold");
-                    Console.WriteLine("What do you do?");
-
+                    Choice2.choice2();
                     break;
                 }
-                else if (userInput == "B")
+                else if (userInput == 3)
                 {
-                    Console.WriteLine("You being to walk, it's plain to you that this won't be a short walk, the land before you is flat, with forest as far as you can see.\n" +
-                                      "As you walk you begin to realize it's pretty late in the day, and it's starting to get cold.");
-
+                    Choice3.choice3();
                     break;
                 }
                 else
                 {
-                    Console.WriteLine("That is not a valid choice, please select a valid choice.");
-                    
+                    Console.WriteLine("That is not a valid choice, please select a valid choice.");                    
                 }
 
             }
+        }
+        public int RandomNumber(int min, int max)
+        {
+            Random random = new Random();
+            return random.Next(min, max);
         }
 
     }
