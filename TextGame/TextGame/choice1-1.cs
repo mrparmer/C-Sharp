@@ -9,7 +9,7 @@ namespace TextGame
         PlayerClass player = new PlayerClass();
         public void choice1()
         {
-            Console.WriteLine("You have exerted yourself, you now have " + player.Exertion() + " health\n" + 
+            Console.WriteLine("You have exerted yourself, you now have " + player.Exertion() + " health\n" +
                               "**************************************\n" +
                               "You look around you and notice that there are no footprints leading to where you were laying,\n" +
                               "there are no sticks, shells, there is nothing. \n" +
@@ -18,8 +18,12 @@ namespace TextGame
                               "What do you do?\n" +
                               "1. Scream for help.\n" +
                               "2. Start walking.\n" +
-                              "3. Stand still, calm your breathing, and listen.\n" +
-                              "4. Rest.");
+                              "3. Stand still, calm your breathing, and listen.\n");
+
+            if (player.PlayerHealth < 100)
+            {
+                string trigger = Console.WriteLine("4. Rest\n");
+            }
 
             choices();
         }
@@ -31,7 +35,7 @@ namespace TextGame
                 if (userInput == 1)
                 {
                     Console.WriteLine("You yell. You shout until you are hoarse, and no one is answering you, you are well and truly alone.\n" +
-                        "What do you do now?");
+                                      "What do you do now?");
                     choice1();
                 }
                 else if (userInput == 2)
@@ -44,15 +48,14 @@ namespace TextGame
                 else if (userInput == 3)
                 {
                     Console.WriteLine("As your pulse calms, your breathing slows, and you focus on the sounds around you, you think you hear the sound of foot steps approaching.\n" +
-                        "They are still a little ways away, for now.\n" +
-                        "What do you do now?");
+                                      "They are still a little ways away, for now.\n" +
+                                      "What do you do now?");
                     break;
                 }
                 else if (userInput == 4) {
                     Console.WriteLine("How long do you wish to rest for?");
                     int restDuration = Int32.Parse(Console.ReadLine());
                     player.PlayerRest(restDuration);
-
                 }
                 else
                 {

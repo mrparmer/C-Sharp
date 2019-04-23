@@ -39,6 +39,12 @@ namespace TextGame
                     Console.WriteLine("You lay down, curl into the fetal position and succumb to the cold. Not long after the beast finds you, nothing remains.");
                     Environment.Exit(0);
                 }
+                else if (userInput == 4)
+                {
+                    Console.WriteLine("How long do you wish to rest for?");
+                    int restDuration = Int32.Parse(Console.ReadLine());
+                    player.PlayerRest(restDuration);
+                }
                 else
                 {
                     Console.WriteLine("That is not a valid choice, please select a valid choice.");

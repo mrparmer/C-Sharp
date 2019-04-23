@@ -20,6 +20,12 @@ namespace TextGame
         int exertion;
         int exhaustion;
 
+        public int PlayerHealth(int hp)
+        {
+            health = hp;
+            return health;
+        }
+
         public int PlayerRest(int restTime)
         {
             healthRegen = 10;                            //regen 10 health per hour rested
@@ -48,9 +54,7 @@ namespace TextGame
             health = 100;
             dmgHealth = health - damage;
             int newHealth = exhaustion;
-
         }    
-
         public override string ToString()
         {
             return health + " health ";
