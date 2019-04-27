@@ -4,15 +4,27 @@ using System.Text;
 
 namespace TextGame
 {
-    class choice1_2
-    {        
+    class choice1_2         
+    {
+        int playerHealth;
+
+        PlayerClass player = new PlayerClass();
+
         public void choice2()
         {
-            Console.WriteLine("You yell. You shout until you are hoarse, and no one is answering you, you are well and truly alone, it's starting to get cold");
+            Console.WriteLine("You have exerted yourself, you now have " + player.Exertion() + " health\n" +
+                              "**************************************\n" +
+                              "You yell. You shout until you are hoarse, and no one is answering you, you are well and truly alone, it's starting to get cold");
             Console.WriteLine("What do you do?\n" +
                               "1. Look for materials to build a fire, or something to at least hold off the cold.\n" +
                               "2. Start walking, hoping you will come across someone, or at the very least the exertion will keep you warm.\n" +
                               "3. Feel sorry for yourself, and stay put.");
+            playerHealth = player.health;
+
+            if (playerHealth < 100)
+            {
+                Console.WriteLine("4. Rest\n");
+            }
             choices();
         }
         public void choices()

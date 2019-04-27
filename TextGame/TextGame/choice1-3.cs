@@ -6,7 +6,9 @@ namespace TextGame
 {
     class choice1_3
     {
-        PlayerClass player = new PlayerClass();
+        int playerHealth;
+       
+    PlayerClass player = new PlayerClass();
         public void choice3()
         {
             Console.WriteLine("You being to walk, it's plain to you that this won't be a short walk, the land before you is flat, with forest as far as you can see.\n" +
@@ -15,9 +17,11 @@ namespace TextGame
                               "1. Move quickly in the direction of the trees, hoping the extertion will keep you warm.\n" +
                               "2. Move quickly to the right along the shoreline, hoping the extertion will keep you warm.\n" +
                               "3. Move quickly in the left along the shoreline, hoping the extertion will keep you warm.\n");
-            if (player.PlayerHealth < 100)
+            playerHealth = player.health;
+
+            if (playerHealth < 100)
             {
-                string trigger = Console.WriteLine("4. Rest\n");
+                Console.WriteLine("4. Rest\n");
             }
             choices();
         }

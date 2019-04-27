@@ -6,7 +6,9 @@ namespace TextGame
 {
     public class choice1_1
     {
-        PlayerClass player = new PlayerClass();
+        int playerHealth;
+        
+    PlayerClass player = new PlayerClass();
         public void choice1()
         {
             Console.WriteLine("You have exerted yourself, you now have " + player.Exertion() + " health\n" +
@@ -19,13 +21,15 @@ namespace TextGame
                               "1. Scream for help.\n" +
                               "2. Start walking.\n" +
                               "3. Stand still, calm your breathing, and listen.\n");
+        
+        playerHealth = player.health;
 
-            if (player.PlayerHealth < 100)
-            {
-                string trigger = Console.WriteLine("4. Rest\n");
-            }
+        if (playerHealth < 100)
+        {
+            Console.WriteLine("4. Rest\n");
+        }
 
-            choices();
+        choices();
         }
         public void choices()
         {

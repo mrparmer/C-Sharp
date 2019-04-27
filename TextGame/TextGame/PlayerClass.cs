@@ -7,9 +7,9 @@ namespace TextGame
     public class PlayerClass
     {
         Program randomNum = new Program();
-        int health;
+        public int health;
         string name;
-        int maxHealth;
+        int maxHealth = 100;
         int healthRegen;
         int strength;
         int damage;
@@ -20,17 +20,11 @@ namespace TextGame
         int exertion;
         int exhaustion;
 
-        public int PlayerHealth(int hp)
-        {
-            health = hp;
-            return health;
-        }
 
         public int PlayerRest(int restTime)
         {
-            healthRegen = 10;                            //regen 10 health per hour rested
-            regenedHealth = restTime * healthRegen;      //formula for regenerating health as the player rests.
-            regenedHealth = health;
+            healthRegen = 10 * restTime;                            //regen 10 health per hour rested
+            health = health + healthRegen;
             Console.WriteLine("You now have {0} health.", health );
             return health;
         }
@@ -45,8 +39,8 @@ namespace TextGame
         public int Exertion()
         {
             exertion = 10;
-            exhaustion = health - exertion;
-            return exhaustion;
+            health = health - exertion;
+            return health;
         }
 
         public PlayerClass()
@@ -55,9 +49,5 @@ namespace TextGame
             dmgHealth = health - damage;
             int newHealth = exhaustion;
         }    
-        public override string ToString()
-        {
-            return health + " health ";
-        }
     }
 }
