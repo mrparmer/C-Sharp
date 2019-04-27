@@ -45,9 +45,8 @@ namespace TextGame
                 }
                 else if (userInput == 4)
                 {
-                    Console.WriteLine("How long do you wish to rest for?");
-                    int restDuration = Int32.Parse(Console.ReadLine());
-                    player.PlayerRest(restDuration);
+                    Console.WriteLine("You have rest for an hour. You hear a noise coming from behind you, you are being hunted.");
+                    player.PlayerRest(player.health);
                     choice3();
                 }
                 else

@@ -21,13 +21,18 @@ namespace TextGame
         int exhaustion;
 
 
-        public int PlayerRest(int restTime)
+        public int PlayerRest(int h)
         {
-            healthRegen = 10 * restTime;                            //regen 10 health per hour rested
-            health = health + healthRegen;
-            Console.WriteLine("You now have {0} health.", health );
-            return health;
-        }
+            if (health < maxHealth)
+            {
+                healthRegen = 10;                            //regen 10 health per hour rested
+                health = health + healthRegen;               //sets health = to health times the number of hours the player rests.
+                Console.WriteLine("You now have {0} health.", health);
+                return health;
+            }
+            else
+                return health;
+            }
 
         public int PlayerAttack(int dmgDone)
         {
