@@ -9,7 +9,7 @@ namespace TextGame
         Program randomNum = new Program();
         public int health;
         string name;
-        int maxHealth = 100;
+        int maxHealth;
         int healthRegen;
         int strength;
         int damage;
@@ -19,7 +19,6 @@ namespace TextGame
         int playerAtk;
         int exertion;
         int exhaustion;
-
 
         public int PlayerRest(int h)
         {
@@ -32,7 +31,7 @@ namespace TextGame
             }
             else
                 return health;
-            }
+        }
 
         public int PlayerAttack(int dmgDone)
         {
@@ -51,8 +50,8 @@ namespace TextGame
         public PlayerClass()
         {
             health = 100;
+            maxHealth = 100;
             dmgHealth = health - damage;
-            int newHealth = exhaustion;
         }    
     }
 }

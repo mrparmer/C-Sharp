@@ -23,9 +23,9 @@ namespace TextGame
             playerName = Console.ReadLine();
 
             Console.WriteLine("Welcome to Aluriat " + playerName);
-            Console.WriteLine("You have " + player.health + " health to start with. As you move through this world, you will exert yourself, which causes you to lose health, you can rest, but \n" +
-                              ", resting means you are still, and the monster will get closer." +
-                             "\nResting is the only way to regain health however, so be wise in your choices.");
+            Console.WriteLine("You have " + player.health + " health to start with. As you move through this world, you will exert yourself, which causes you to lose health, you can rest, but, \n" +
+                              "resting means you are still, and the monster will get closer." +
+                              "\nResting is the only way to regain health however, so be wise in your choices.");
 
             Console.WriteLine("The story begins;\n" +
                               "You wake up, alone, on a sandy beach, with no memory of how you got there. The sun is setting it's starting to get cold.\n" +
@@ -35,30 +35,23 @@ namespace TextGame
                               "2. Shout and see if anyone is around.\n" +
                               "3. Begin walking, looking for signs of life.\n");
 
-            while (true)
-            {
                 int userInput = Int32.Parse(Console.ReadLine());
                 if (userInput == 1)
                 {
                     Choice1.choice1();
-                    break;
                 }
                 else if (userInput == 2)
                 {
                     Choice2.choice2();
-                    break;
                 }
                 else if (userInput == 3)
                 {
                     Choice3.choice3();
-                    break;
                 }
                 else
                 {
                     Console.WriteLine("That is not a valid choice, please select a valid choice.");                    
                 }
-
-            }
         }
         public int RandomNumber(int min, int max)
         {

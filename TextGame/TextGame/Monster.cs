@@ -13,7 +13,7 @@ namespace TextGame
         public void MonsterStats()
         {
             strength = randomNum.RandomNumber(0, 10);
-            health = randomNum.RandomNumber(50, 100);
+            health = randomNum.RandomNumber(10, 50);
         }
         public int Attack(int damage)
         {

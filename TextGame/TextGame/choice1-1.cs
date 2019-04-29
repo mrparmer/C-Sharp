@@ -12,10 +12,9 @@ namespace TextGame
         public void choice1()
 
             //player choice, takes stock of surroundings.
+
         {
-            Console.WriteLine("You have exerted yourself, you now have " + player.Exertion() + " health\n" +
-                              "**************************************\n" +
-                              "You look around you and notice that there are no footprints leading to where you were laying,\n" +
+            Console.WriteLine("You look around you and notice that there are no footprints leading to where you were laying,\n" +
                               "there are no sticks, shells, there is nothing. \n" +
                               "You pat yourself down and discover you are wearing nothing but a thin overshirt, and light pants.\n" +
                               "It's starting to get cold.\n" +
@@ -35,14 +34,16 @@ namespace TextGame
         }
         public void choices()
         {
-            while (true)
-            {
                 int userInput = Int32.Parse(Console.ReadLine());
                 if (userInput == 1)
                 {
                     Console.WriteLine("You yell. You shout until you are hoarse, and no one is answering you, you are well and truly alone.\n" +
-                                      "What do you do now?");
-                    choice1();
+                                      "There is no one here, all you managed to do was attract the attention of something in the woods, it's coming this way.\n" + 
+                                      "What do you do now?\n" +
+                                      "1. Run into the water, maybe it will lose you in the waves. The water is frigid.\n" +
+                                      "2. There... There... is a monster?!?\n" +
+                                      "3. Attempt to bury yourself in the sand.");
+                choices1_1();
                 }
                 else if (userInput == 2)
                 {
@@ -54,9 +55,8 @@ namespace TextGame
                                       "1. Continue walking, keeping a steady pace.\n" +
                                       "2. Start running, it's getting cold, the exertion should keep you warmer.\n" +
                                       "3. Succumb to the inevitable, there is no escape, sit down and wait for the cold.");
-
-                    break;
-                }
+                choices1_2();
+            }
                 else if (userInput == 3)
                 {
                     Console.WriteLine("As your pulse calms, your breathing slows, and you focus on the sounds around you, you think you hear the sound of heavy foot steps prowling closer.\n" +
@@ -65,8 +65,8 @@ namespace TextGame
                                       "1. Panic, run, hope it doesn't catch you.\n" +
                                       "2. Remain calm, look for a hiding place, anywhere to disappear.\n" +
                                       "3. Stand and fight.");
-                    break;
-                }
+                choices1_3 ();
+            }
                 else if (userInput == 4) {
                     Console.WriteLine("You have rest for an hour. You hear a noise coming from behind you, you are being hunted.");
                     player.PlayerRest(player.health);
@@ -74,15 +74,56 @@ namespace TextGame
                 else
                 {
                     Console.WriteLine("That is not a valid choice, please select a valid choice.");
-
                 }
-
-            }
         }
 
-        public void choices_2()
+        public void choices1_1()
         {
-
+            int userInput = Int32.Parse(Console.ReadLine());
+            if (userInput == 1)
+            {
+                Console.WriteLine("1");
+            }
+            if (userInput == 2)
+            {
+                Console.WriteLine("2");
+            }
+            if (userInput == 3)
+            {
+                Console.WriteLine("3");
+            }
+        }
+        public void choices1_2()
+        {
+            int userInput = Int32.Parse(Console.ReadLine());
+            if (userInput == 1)
+            {
+                Console.WriteLine("1");
+            }
+            if (userInput == 2)
+            {
+                Console.WriteLine("2");
+            }
+            if (userInput == 3)
+            {
+                Console.WriteLine("3");
+            }
+        }
+        public void choices1_3()
+        {
+            int userInput = Int32.Parse(Console.ReadLine());
+            if (userInput == 1)
+            {
+                Console.WriteLine("1");
+            }
+            if (userInput == 2)
+            {
+                Console.WriteLine("2");
+            }
+            if (userInput == 3)
+            {
+                Console.WriteLine("3");
+            }
         }
     }
 }
