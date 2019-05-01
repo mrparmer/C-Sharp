@@ -58,6 +58,23 @@ namespace TextGame
             Random random = new Random();
             return random.Next(min, max);
         }
-
+        public static void loseCondition()
+        {
+            Console.WriteLine("You were consumed by the beast. \n" +
+                "Start again?\n" +
+                "Y to begin again\n" +
+                "N to exit");
+            char userInput = Console.Read();
+            if (userInput == Y)
+            {
+                Console.Clear();
+                TextGame();
+            }
+            if (userInput == N)
+            {
+                Environment.Exit(0);
+            }
+        }
     }
+
 }

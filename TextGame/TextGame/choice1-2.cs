@@ -49,7 +49,6 @@ namespace TextGame
             {
                 Console.Clear();
                 Console.WriteLine("You lay down, curl into the fetal position and succumb to the cold. Not long after, the beast finds you, nothing remains.");
-                Environment.Exit(0);
             }
             else if (userInput == 4)
             {

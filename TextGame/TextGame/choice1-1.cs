@@ -43,7 +43,7 @@ namespace TextGame
                                       "1. Run into the water, maybe it will lose you in the waves. The water is frigid.\n" +
                                       "2. There... There... is a monster?!?\n" +
                                       "3. Attempt to bury yourself in the sand.");
-                choices1_1();
+                
                 }
                 else if (userInput == 2)
                 {
@@ -55,8 +55,7 @@ namespace TextGame
                                       "1. Continue walking, keeping a steady pace.\n" +
                                       "2. Start running, it's getting cold, the exertion should keep you warmer.\n" +
                                       "3. Succumb to the inevitable, there is no escape, sit down and wait for the cold.");
-                choices1_2();
-            }
+                }
                 else if (userInput == 3)
                 {
                     Console.WriteLine("As your pulse calms, your breathing slows, and you focus on the sounds around you, you think you hear the sound of heavy foot steps prowling closer.\n" +
@@ -65,8 +64,8 @@ namespace TextGame
                                       "1. Panic, run, hope it doesn't catch you.\n" +
                                       "2. Remain calm, look for a hiding place, anywhere to disappear.\n" +
                                       "3. Stand and fight.");
-                choices1_3 ();
-            }
+                
+                }
                 else if (userInput == 4) {
                     Console.WriteLine("You have rest for an hour. You hear a noise coming from behind you, you are being hunted.");
                     player.PlayerRest(player.health);
@@ -75,6 +74,23 @@ namespace TextGame
                 {
                     Console.WriteLine("That is not a valid choice, please select a valid choice.");
                 }
+            int userInput = Int32.Parse(Console.ReadLine());
+            if (userInput == 1)
+            {
+                choices1_1();
+            }
+            else if (userInput == 2)
+            {
+                choices1_2();
+            }
+            else if (userInput == 3)
+            {
+                choices1_3();
+            }
+            else
+            {
+                Console.WriteLine("That is not a valid choice, please select a valid choice.");
+            }
         }
 
         public void choices1_1()
@@ -82,15 +98,28 @@ namespace TextGame
             int userInput = Int32.Parse(Console.ReadLine());
             if (userInput == 1)
             {
-                Console.WriteLine("1");
+                Console.WriteLine("The water is so cold, before you make it under the water your teeth start to chatter, and you start shivering, this is not a survivable option.\n" +
+                                  "What do you do?\n" +
+                                  "");
             }
-            if (userInput == 2)
+            else if (userInput == 2)
             {
-                Console.WriteLine("2");
+                Console.WriteLine("There is a beast here, and it is hunting you, this moment of fear and hesitation costs you dearly, the beast is nearly upon you.\n" +
+                                  "What do you do?\n" +
+                                  "");
             }
-            if (userInput == 3)
+            else if (userInput == 3)
             {
-                Console.WriteLine("3");
+                Console.WriteLine("You are exerting yourself, you have " + player.Exertion() + " health\n" +
+                                  "You fall to the sand and start to dig, you get yourself covered in sand, the just slight dampness of the sand makes it easy to keep a hole, just large enough to breathe through, open.\n" +
+                                  "You are completely hidden from sight, you hear the beast get closer and closer, then, for a moment all is quiet, then the beast is upon you, you weren't buried deep enough and it found you\n" +
+                                  "you are concious as it begins to consume you.");
+                Program.loseCondition();
+    
+            }
+            else
+            {
+                Console.WriteLine("That is not a valid choice, please select a valid choice.");
             }
         }
         public void choices1_2()
@@ -100,13 +129,19 @@ namespace TextGame
             {
                 Console.WriteLine("1");
             }
-            if (userInput == 2)
+            else if (userInput == 2)
             {
                 Console.WriteLine("2");
             }
-            if (userInput == 3)
+            else if (userInput == 3)
             {
-                Console.WriteLine("3");
+                Console.WriteLine("rt");
+            }
+            else
+            {
+                Console.WriteLine("That is not a valid choice, please select a valid choice.");
+                Console.ReadKey();
+                Console.Clear();
             }
         }
         public void choices1_3()
@@ -116,13 +151,17 @@ namespace TextGame
             {
                 Console.WriteLine("1");
             }
-            if (userInput == 2)
+            else if (userInput == 2)
             {
                 Console.WriteLine("2");
             }
-            if (userInput == 3)
+            else if (userInput == 3)
             {
                 Console.WriteLine("3");
+            }
+            else
+            {
+                Console.WriteLine("That is not a valid choice, please select a valid choice.");
             }
         }
     }
