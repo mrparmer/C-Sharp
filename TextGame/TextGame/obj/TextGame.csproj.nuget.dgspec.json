@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mparmer3\\Documents\\GitHub\\C-Sharp\\TextGame\\TextGame\\TextGame.csproj": {}
+    "C:\\Users\\Mattp\\Documents\\C-Sharp\\TextGame\\TextGame\\TextGame.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mparmer3\\Documents\\GitHub\\C-Sharp\\TextGame\\TextGame\\TextGame.csproj": {
+    "C:\\Users\\Mattp\\Documents\\C-Sharp\\TextGame\\TextGame\\TextGame.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mparmer3\\Documents\\GitHub\\C-Sharp\\TextGame\\TextGame\\TextGame.csproj",
+        "projectUniqueName": "C:\\Users\\Mattp\\Documents\\C-Sharp\\TextGame\\TextGame\\TextGame.csproj",
         "projectName": "TextGame",
-        "projectPath": "C:\\Users\\mparmer3\\Documents\\GitHub\\C-Sharp\\TextGame\\TextGame\\TextGame.csproj",
-        "packagesPath": "C:\\Users\\mparmer3\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mparmer3\\Documents\\GitHub\\C-Sharp\\TextGame\\TextGame\\obj\\",
+        "projectPath": "C:\\Users\\Mattp\\Documents\\C-Sharp\\TextGame\\TextGame\\TextGame.csproj",
+        "packagesPath": "C:\\Users\\Mattp\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Mattp\\Documents\\C-Sharp\\TextGame\\TextGame\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\ProgramData\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\mparmer3\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Mattp\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -42,6 +42,14 @@
       },
       "frameworks": {
         "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
           "imports": [
             "net461"
           ],

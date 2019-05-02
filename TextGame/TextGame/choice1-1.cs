@@ -43,6 +43,7 @@ namespace TextGame
                                       "1. Run into the water, maybe it will lose you in the waves. The water is frigid.\n" +
                                       "2. There... There... is a monster?!?\n" +
                                       "3. Attempt to bury yourself in the sand.");
+                choices1_1();
                 
                 }
                 else if (userInput == 2)
@@ -55,6 +56,7 @@ namespace TextGame
                                       "1. Continue walking, keeping a steady pace.\n" +
                                       "2. Start running, it's getting cold, the exertion should keep you warmer.\n" +
                                       "3. Succumb to the inevitable, there is no escape, sit down and wait for the cold.");
+                choices1_2();
                 }
                 else if (userInput == 3)
                 {
@@ -64,7 +66,7 @@ namespace TextGame
                                       "1. Panic, run, hope it doesn't catch you.\n" +
                                       "2. Remain calm, look for a hiding place, anywhere to disappear.\n" +
                                       "3. Stand and fight.");
-                
+                choices1_3();
                 }
                 else if (userInput == 4) {
                     Console.WriteLine("You have rest for an hour. You hear a noise coming from behind you, you are being hunted.");
@@ -74,23 +76,7 @@ namespace TextGame
                 {
                     Console.WriteLine("That is not a valid choice, please select a valid choice.");
                 }
-            int userInput = Int32.Parse(Console.ReadLine());
-            if (userInput == 1)
-            {
-                choices1_1();
-            }
-            else if (userInput == 2)
-            {
-                choices1_2();
-            }
-            else if (userInput == 3)
-            {
-                choices1_3();
-            }
-            else
-            {
-                Console.WriteLine("That is not a valid choice, please select a valid choice.");
-            }
+            
         }
 
         public void choices1_1()

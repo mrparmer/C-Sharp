@@ -64,13 +64,14 @@ namespace TextGame
                 "Start again?\n" +
                 "Y to begin again\n" +
                 "N to exit");
-            char userInput = Console.Read();
-            if (userInput == Y)
+            string userInputLower = Console.ReadLine();
+            string userInput = userInputLower.ToUpper();
+            if (userInput == "Y")
             {
                 Console.Clear();
                 TextGame();
             }
-            if (userInput == N)
+            if (userInput == "N")
             {
                 Environment.Exit(0);
             }
