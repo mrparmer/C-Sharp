@@ -49,7 +49,7 @@ namespace TextGame
             else if (userInput == 2)
             {
                 Console.WriteLine("You are exerting yourself, you have " + player.Exertion() + " health\n" +
-                                  "You being to walk, it's plain to you that this won't be a short walk, the land before you has a slight rise, \n" +
+                                  "You begin to walk, it's plain to you that this won't be a short walk, the land before you has a slight rise, \n" +
                                   "you know that this will make the journey tiring, with forest as far as you can see to both sides of you.\n" +
                                   "As you walk you begin to realize it's pretty late in the day, and it's starting to get cold.\n " +
                                   "What do you do now?\n" +
@@ -70,12 +70,14 @@ namespace TextGame
             }
             else if (userInput == 4)
             {
-                Console.WriteLine("You have rest for an hour. You hear a noise coming from behind you, you are being hunted.");
+                Console.WriteLine("You have rested for an hour. You hear a noise coming from behind you, you are being hunted.");
                 player.PlayerRest(player.health);
             }
             else
             {
                 Console.WriteLine("That is not a valid choice, please select a valid choice.");
+                Console.Clear();
+                choices();
             }
 
         }
@@ -85,7 +87,7 @@ namespace TextGame
             int userInput = Int32.Parse(Console.ReadLine());
             if (userInput == 1)
             {
-                Console.WriteLine("The water is so cold, before you make it under the water your teeth start to chatter, and you start shivering, this is not a survivable option.\n" +
+                Console.WriteLine("The water is so cold, before you even make it under the water your teeth start to chatter, and you start shivering, this is not a survivable option.\n" +
                                   "What do you do?\n" +
                                   "1. Get out of the water. Get ready to fight.\n" +
                                   "2. Get out of the water and run.\n" +
@@ -96,7 +98,8 @@ namespace TextGame
             {
                 Console.WriteLine("There is a beast here, and it is hunting you, this moment of fear and hesitation costs you dearly, the beast is nearly upon you.\n" +
                                   "What do you do?\n" +
-                                  "");
+                                  "1. Ready yourself to fight.\n" +
+                                  "2. Make peace with your maker, and wait for the inevitable.");
                 choices1_1_2();
             }
             else if (userInput == 3)
@@ -106,7 +109,10 @@ namespace TextGame
                                   "You are completely hidden from sight, you hear the beast get closer and closer, then, for a moment all is quiet, then the beast is upon you, you weren't buried deep enough and it found you\n" +
                                   "you are concious as it begins to consume you.");
                 Program.loseCondition();
-
+            }
+            else if (playerHealth < 100)
+            {
+                Console.WriteLine("4. Rest\n");
             }
             else
             {
@@ -126,7 +132,12 @@ namespace TextGame
             }
             else if (userInput == 3)
             {
-                Console.WriteLine("rt");
+                Console.WriteLine("3");
+            }
+            else if (userInput == 4)
+            {
+                Console.WriteLine("You rest for an hour. You hear a noise coming from behind you, you are being hunted.");
+                player.PlayerRest(player.health);
             }
             else
             {
@@ -160,7 +171,9 @@ namespace TextGame
             int userInput = Int32.Parse(Console.ReadLine());
             if (userInput == 1)
             {
-                Console.WriteLine("1");
+                Console.WriteLine("You get out of the water, dripping, shivering, you look up out of the water, towards the beach, there you see a beast that baffles the mind. At almost the same moment that you see the \n" +
+                    "the beast it sees you, and before you have a chance to even inhale to scream, the beast is upon you, and you are no more.");
+                Program.loseCondition(); 
             }
             else if (userInput == 2)
             {
