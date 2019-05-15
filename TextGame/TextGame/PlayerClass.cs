@@ -52,7 +52,6 @@ namespace TextGame
             health = 100;
             maxHealth = 100;
             dmgHealth = health - damage;
-        }   
-        
+        }           
     }
 }

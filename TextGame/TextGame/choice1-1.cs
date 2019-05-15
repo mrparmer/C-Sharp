@@ -177,11 +177,14 @@ namespace TextGame
             }
             else if (userInput == 2)
             {
-                Console.WriteLine("2");
+                Console.WriteLine("You burst up from beneath the waves, your lips are blue, teeth chattering, muscles shivering. You look towards shore, there you see a beast that baffles the mind. At almost the same moment that you see the \n" +
+                    "the beast it sees you, and before you have a chance to even inhale to scream, the beast is upon you, and you are no more.");
+                Program.loseCondition();
             }
             else if (userInput == 3)
             {
-                Console.WriteLine("3");
+                Console.WriteLine("You freeze...");
+                Program.loseCondition();
             }
             else
             {
