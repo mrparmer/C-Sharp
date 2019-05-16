@@ -60,7 +60,7 @@ namespace TextGame
         }
         public static void loseCondition()
         {
-            Console.WriteLine("You were consumed by the beast. \n" +
+            Console.WriteLine("You died. \n" +
                 "Start again?\n" +
                 "Y to begin again\n" +
                 "N to exit");
