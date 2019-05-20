@@ -51,7 +51,7 @@ namespace TextGame
                                   "As you walk you begin to realize it's pretty late in the day, and it's starting to get cold.\n " +
                                   "What do you do now?\n" +
                                   "1. Continue walking, keeping a steady pace.\n" +
-                                  "2. Start running, it's getting cold, the exertion should keep you warmer.\n" +
+                                  "2. Start running, it's getting cold, the exertion could keep you warmer.\n" +
                                   "3. Succumb to the inevitable, there is no escape, sit down and wait for the cold.");
                 if (playerHealth < 100)
                 {
@@ -121,12 +121,12 @@ namespace TextGame
             int userInput = Int32.Parse(Console.ReadLine());
             if (userInput == 1)
             {
-                Console.WriteLine("You are walking deeper into the forest, it's getting tougher to continue, but too difficult, the exertion is wearing your energy reserves thin.\n " + player.Exertion() +" \nEventually you" +
+                Console.WriteLine("You are walking deeper into the forest, it's getting tougher to continue, but not too difficult, the exertion is wearing your energy reserves thin.\n " + player.Exertion() +" \nEventually you" +
                     "find a decent size stick on the ground, it's sturdy, and tough. The beast is still pursueing you. \n" +
                     "What do you do?\n" +
-                    "1.\n" +
-                    "2.\n" +
-                    "3.\n");
+                    "1. Pick up the stick. Find some place to hide, and wait for the monster to get closer\n" +
+                    "2. Pick up the stick, use it as a walking stick, to save energy, and to help clear the brush from your path, to make your passage easier to navigate.\n" +
+                    "3. Don't take the time to pick up the stick, you don't have time for that.\n");
             }
             else if (userInput == 2)
             {
