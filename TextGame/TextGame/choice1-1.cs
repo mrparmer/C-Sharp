@@ -127,14 +127,15 @@ namespace TextGame
                     "1. Pick up the stick. Find some place to hide, and wait for the monster to get closer\n" +
                     "2. Pick up the stick, use it as a walking stick, to save energy, and to help clear the brush from your path, to make your passage easier to navigate.\n" +
                     "3. Don't take the time to pick up the stick, you don't have time for that.\n");
+                choices1_2_1();
             }
             else if (userInput == 2)
             {
                 Console.WriteLine("Running, plus being absolutely petrified, warms you up, but you are quickly tiring. The beast has heard you, the increased pace has caused you to be easier to track, the monster is coming for you.\n" +
-                    "You are getting tired " + player.Exertion() + "\nWhat do you do now?\n" +
-                    "1.\n" +
-                    "2.\n" +
-                    "3.\n");
+                    "You can't keep this pace up, you are starting to slow down, breath is coming in gasps. The beasts hears your footfalls slow, it can hear your breathing coming fast, shallow gasps, \n" +
+                    "it's a predetor, sensing your weakness it speeds up in an attempt to end the chase, and get its prize. You barely have time to recognize the pain of your demise before it's \n" +
+                    "all over.");
+                Program.loseCondition();
             }
             if (userInput == 3)
             {
