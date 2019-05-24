@@ -130,7 +130,7 @@ namespace TextGame
             }
             else if (userInput == 2)
             {
-                Console.WriteLine("You are terrified. Running warms you up, but you are quickly tiring. The beast has heard you increase your pace, it has done the same.\n" +
+                Console.WriteLine("Running, plus being absolutely petrified, warms you up, but you are quickly tiring. The beast has heard you, the increased pace has caused you to be easier to track, the monster is coming for you.\n" +
                     "You are getting tired " + player.Exertion() + "\nWhat do you do now?\n" +
                     "1.\n" +
                     "2.\n" +
