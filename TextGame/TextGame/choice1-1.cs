@@ -80,7 +80,6 @@ namespace TextGame
                 Console.Clear();
                 choices();
             }
-
         }
 
         public void choices1_1()
@@ -116,6 +115,50 @@ namespace TextGame
                 Console.WriteLine("That is not a valid choice, please select a valid choice.");
             }
         }
+        public void choices1_1_1()
+        {
+            int userInput = Int32.Parse(Console.ReadLine());
+            if (userInput == 1)
+            {
+                Console.WriteLine("You get out of the water, dripping, shivering, you look up out of the water, towards the beach, there you see a beast that baffles the mind. At almost the same moment that you see the \n" +
+                    "the beast it sees you, and before you have a chance to even inhale to scream, the beast is upon you, and you are no more.");
+                Program.loseCondition();
+            }
+            else if (userInput == 2)
+            {
+                Console.WriteLine("You burst up from beneath the waves, your lips are blue, teeth chattering, muscles shivering. You look towards shore, there you see a beast that baffles the mind. At almost the same moment that you see the \n" +
+                    "the beast it sees you, and before you have a chance to even inhale to scream, the beast is upon you, and you are no more.");
+                Program.loseCondition();
+            }
+            else if (userInput == 3)
+            {
+                Console.WriteLine("You freeze...");
+                Program.loseCondition();
+            }
+            else
+            {
+                Console.WriteLine("That is not a valid choice, please select a valid choice.");
+            }
+        }
+        public void choices1_1_2() //combat option TO DO
+        {
+            int userInput = Int32.Parse(Console.ReadLine());
+            if (userInput == 1)
+            {
+                Console.WriteLine("You turn toward the sound of the sound of approaching footsteps. You square your stance, ball your fists, and ready yourself to face the unknown.");
+                //combat
+            }
+            else if (userInput == 2)
+            {
+                Console.WriteLine("You kneel, bow your head, and prepare to take your last breath. Death is inevitable, for you, it comes sooner than you were hoping.");
+                Program.loseCondition();
+            }
+            else
+            {
+                Console.WriteLine("That is not a valid choice, please select a valid choice.");
+            }
+        }
+
         public void choices1_2()
         {
             int userInput = Int32.Parse(Console.ReadLine());
@@ -154,88 +197,51 @@ namespace TextGame
                 
             }
         }
-        public void choices1_3()
-        {
-            int userInput = Int32.Parse(Console.ReadLine());
-            if (userInput == 1)
-            {
-                Console.WriteLine("1");
-            }
-            else if (userInput == 2)
-            {
-                Console.WriteLine("2");
-            }
-            else if (userInput == 3)
-            {
-                Console.WriteLine("3");
-            }
-            else
-            {
-                Console.WriteLine("That is not a valid choice, please select a valid choice.");
-            }
-        }
-        public void choices1_1_1()
-        {
-            int userInput = Int32.Parse(Console.ReadLine());
-            if (userInput == 1)
-            {
-                Console.WriteLine("You get out of the water, dripping, shivering, you look up out of the water, towards the beach, there you see a beast that baffles the mind. At almost the same moment that you see the \n" +
-                    "the beast it sees you, and before you have a chance to even inhale to scream, the beast is upon you, and you are no more.");
-                Program.loseCondition(); 
-            }
-            else if (userInput == 2)
-            {
-                Console.WriteLine("You burst up from beneath the waves, your lips are blue, teeth chattering, muscles shivering. You look towards shore, there you see a beast that baffles the mind. At almost the same moment that you see the \n" +
-                    "the beast it sees you, and before you have a chance to even inhale to scream, the beast is upon you, and you are no more.");
-                Program.loseCondition();
-            }
-            else if (userInput == 3)
-            {
-                Console.WriteLine("You freeze...");
-                Program.loseCondition();
-            }
-            else
-            {
-                Console.WriteLine("That is not a valid choice, please select a valid choice.");
-            }
-        }
-        public void choices1_1_2()
-        {
-            int userInput = Int32.Parse(Console.ReadLine());
-            if (userInput == 1)
-            {
-                Console.WriteLine("You turn toward the sound of the sound of approaching footsteps. You square your stance, ball your fists, and ready yourself to face the unknown.");
-            }
-            else if (userInput == 2)
-            {
-                Console.WriteLine("You kneel, bow your head, and prepare to take your last breath. Death is inevitable, for you, it comes sooner than you were hoping.");
-            }            
-            else
-            {
-                Console.WriteLine("That is not a valid choice, please select a valid choice.");
-            }
-        }
-        
         public void choices1_2_1()
-
         {
             int userInput = Int32.Parse(Console.ReadLine());
             if (userInput == 1)
             {
-                Console.WriteLine("1");
+                Console.WriteLine("You stoop, pick up the stick and as you conintue to move through the woods, you find a low spot in the ground that you jump into, duck down and wait\n" +
+                    "for the monster to come by. \n" +
+                    "You don't have to wait long, you here something large crash through the brush to your left and slide to a halt. It can't see you, but it can smell you. It starts \n" +
+                    "sniffing the air, moving slowly in your direction. What do you do?" +
+                    "1. Wait for it to get closer, hoping you it won't see you until it's too late.\n" +        //death
+                    "2. Toss a rock into the brush hoping to distract it so that you can rush it.\n" +          //combat option
+                    "3. Scream at the top of your lungs in the hope to startle it, giving you the time you need to close the distance and impale it."); //victory option
+                choices1_2_1_1();
             }
             else if (userInput == 2)
             {
-                Console.WriteLine("2");
+                Console.WriteLine("The use of the stick as a walking and brush stick helps you move a little faster, you are managing to keep ahead of the monster that is chasing you.\n" +
+                    "Your energy is waning fast however, you are not sure how much longer you can keep this pase." + player.Exertion() + " health\n" +
+                    "What do you do now?\n" +
+                    "1. Fight through the exhaustion and keep moving. By GOD you won't tire before the beast!\n" +
+                    "2.\n" +
+                    "3.\n");
+                choices1_2_1_2();
             }
             else if (userInput == 3)
             {
                 Console.WriteLine("3");
+                choices1_2_1_3();
             }
             else
             {
                 Console.WriteLine("That is not a valid choice, please select a valid choice.");
             }
+        }
+        public void choices1_2_1_1()
+        {
+
+        }
+        public void choices1_2_1_2()
+        {
+
+        }
+        public void choices1_2_1_3()
+        {
+
         }
         public void choices1_2_2()
         {
@@ -258,6 +264,87 @@ namespace TextGame
             }
         }
         public void choices1_2_3()
+        {
+            int userInput = Int32.Parse(Console.ReadLine());
+            if (userInput == 1)
+            {
+                Console.WriteLine("1");
+            }
+            else if (userInput == 2)
+            {
+                Console.WriteLine("2");
+            }
+            else if (userInput == 3)
+            {
+                Console.WriteLine("3");
+            }
+            else
+            {
+                Console.WriteLine("That is not a valid choice, please select a valid choice.");
+            }
+        }
+        
+        public void choices1_3() //not done
+        {
+            int userInput = Int32.Parse(Console.ReadLine());
+            if (userInput == 1)
+            {
+                Console.WriteLine("1");
+            }
+            else if (userInput == 2)
+            {
+                Console.WriteLine("2");
+            }
+            else if (userInput == 3)
+            {
+                Console.WriteLine("3");
+            }
+            else
+            {
+                Console.WriteLine("That is not a valid choice, please select a valid choice.");
+            }
+        }
+        public void choices1_3_1()
+        {
+            int userInput = Int32.Parse(Console.ReadLine());
+            if (userInput == 1)
+            {
+                Console.WriteLine("1");
+            }
+            else if (userInput == 2)
+            {
+                Console.WriteLine("2");
+            }
+            else if (userInput == 3)
+            {
+                Console.WriteLine("3");
+            }
+            else
+            {
+                Console.WriteLine("That is not a valid choice, please select a valid choice.");
+            }
+        }
+        public void choices1_3_2()
+        {
+            int userInput = Int32.Parse(Console.ReadLine());
+            if (userInput == 1)
+            {
+                Console.WriteLine("1");
+            }
+            else if (userInput == 2)
+            {
+                Console.WriteLine("2");
+            }
+            else if (userInput == 3)
+            {
+                Console.WriteLine("3");
+            }
+            else
+            {
+                Console.WriteLine("That is not a valid choice, please select a valid choice.");
+            }
+        }
+        public void choices1_3_3()
         {
             int userInput = Int32.Parse(Console.ReadLine());
             if (userInput == 1)
