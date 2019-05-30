@@ -1,0 +1,11 @@
+C:\Users\mparmer3\Documents\GitHub\C-Sharp\MultiplesOf3and5\MultiplesOf3and5\bin\Debug\netcoreapp2.1\MultiplesOf3and5.deps.json
+C:\Users\mparmer3\Documents\GitHub\C-Sharp\MultiplesOf3and5\MultiplesOf3and5\bin\Debug\netcoreapp2.1\MultiplesOf3and5.runtimeconfig.json
+C:\Users\mparmer3\Documents\GitHub\C-Sharp\MultiplesOf3and5\MultiplesOf3and5\bin\Debug\netcoreapp2.1\MultiplesOf3and5.runtimeconfig.dev.json
+C:\Users\mparmer3\Documents\GitHub\C-Sharp\MultiplesOf3and5\MultiplesOf3and5\bin\Debug\netcoreapp2.1\MultiplesOf3and5.dll
+C:\Users\mparmer3\Documents\GitHub\C-Sharp\MultiplesOf3and5\MultiplesOf3and5\bin\Debug\netcoreapp2.1\MultiplesOf3and5.pdb
+C:\Users\mparmer3\Documents\GitHub\C-Sharp\MultiplesOf3and5\MultiplesOf3and5\obj\Debug\netcoreapp2.1\MultiplesOf3and5.csprojAssemblyReference.cache
+C:\Users\mparmer3\Documents\GitHub\C-Sharp\MultiplesOf3and5\MultiplesOf3and5\obj\Debug\netcoreapp2.1\MultiplesOf3and5.csproj.CoreCompileInputs.cache
+C:\Users\mparmer3\Documents\GitHub\C-Sharp\MultiplesOf3and5\MultiplesOf3and5\obj\Debug\netcoreapp2.1\MultiplesOf3and5.AssemblyInfoInputs.cache
+C:\Users\mparmer3\Documents\GitHub\C-Sharp\MultiplesOf3and5\MultiplesOf3and5\obj\Debug\netcoreapp2.1\MultiplesOf3and5.AssemblyInfo.cs
+C:\Users\mparmer3\Documents\GitHub\C-Sharp\MultiplesOf3and5\MultiplesOf3and5\obj\Debug\netcoreapp2.1\MultiplesOf3and5.dll
+C:\Users\mparmer3\Documents\GitHub\C-Sharp\MultiplesOf3and5\MultiplesOf3and5\obj\Debug\netcoreapp2.1\MultiplesOf3and5.pdb

@@ -1,0 +1,61 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\mparmer3\\Documents\\GitHub\\C-Sharp\\Fibonacci\\Fibonacci\\Fibonacci.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\mparmer3\\Documents\\GitHub\\C-Sharp\\Fibonacci\\Fibonacci\\Fibonacci.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\mparmer3\\Documents\\GitHub\\C-Sharp\\Fibonacci\\Fibonacci\\Fibonacci.csproj",
+        "projectName": "Fibonacci",
+        "projectPath": "C:\\Users\\mparmer3\\Documents\\GitHub\\C-Sharp\\Fibonacci\\Fibonacci\\Fibonacci.csproj",
+        "packagesPath": "C:\\Users\\mparmer3\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mparmer3\\Documents\\GitHub\\C-Sharp\\Fibonacci\\Fibonacci\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\ProgramData\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\mparmer3\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}
