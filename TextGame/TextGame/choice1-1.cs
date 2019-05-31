@@ -26,7 +26,6 @@ namespace TextGame
             {
                 Console.WriteLine("4. Rest\n");
             }
-
             choices();
         }
         public void choices()
@@ -81,8 +80,7 @@ namespace TextGame
                 choices();
             }
         }
-
-        public void choices1_1()
+        public void choices1_1()//done
         {
             int userInput = Int32.Parse(Console.ReadLine());
             if (userInput == 1)
@@ -115,7 +113,7 @@ namespace TextGame
                 Console.WriteLine("That is not a valid choice, please select a valid choice.");
             }
         }
-        public void choices1_1_1()
+        public void choices1_1_1()//done
         {
             int userInput = Int32.Parse(Console.ReadLine());
             if (userInput == 1)
@@ -140,13 +138,17 @@ namespace TextGame
                 Console.WriteLine("That is not a valid choice, please select a valid choice.");
             }
         }
-        public void choices1_1_2() //combat option TO DO
+        public void choices1_1_2() //done
         {
             int userInput = Int32.Parse(Console.ReadLine());
             if (userInput == 1)
             {
-                Console.WriteLine("You turn toward the sound of the sound of approaching footsteps. You square your stance, ball your fists, and ready yourself to face the unknown.");
-                //combat
+                Console.WriteLine("You turn toward the sound of the sound of approaching footsteps. You square your stance, ball your fists, and ready yourself to face the unknown.\n" +
+                    "After a few moments the beast comes into view. It sees you standing there, and seems to size you up, it's almost like it's never been challenged before. Unfortunately \n" +
+                    "the moment passes quickly, the beast roars loudly, the volume of it makes the very air around you vibrate. Then, almost before it finishes the roar it charges.\n " +
+                    "You try and put up at least a little bit of a fight, try to make it work for its dinner, and you almost succeed, in the end it's just too strong and fast. \n" +
+                    "If only you had had a weapon of some kind.");
+                Program.loseCondition();
             }
             else if (userInput == 2)
             {
@@ -217,14 +219,17 @@ namespace TextGame
                     "Your energy is waning fast however, you are not sure how much longer you can keep this pase." + player.Exertion() + " health\n" +
                     "What do you do now?\n" +
                     "1. Fight through the exhaustion and keep moving. By GOD you won't tire before the beast!\n" +
-                    "2.\n" +
-                    "3.\n");
+                    "2. Slow down slightly just for a few minutes, to regain at least some of your energy.\n" +
+                    "3. The weight of the hopelessness of your situation starts to sink in, you start to tire faster.\n");
                 choices1_2_1_2();
             }
             else if (userInput == 3)
             {
-                Console.WriteLine("3");
-                choices1_2_1_3();
+                Console.WriteLine("You don't pick up the stick. You keep running, thinking how you hope you didn't make a mistake. Your decision pays off for a few minutes, you can tell \n" +
+                    "that you are pulling away from the beast, that is until you realize that the sound of your breathing, of you heart beating in your ears, and the thunderous noise of \n " +
+                    "your passage has actually just masked the the sound of the beast, as it gained on you. \n" +
+                    "It tackles you from behind, you have just enough time to wonder what you tripped over then it's all over.");
+                Program.loseCondition();
             }
             else
             {
