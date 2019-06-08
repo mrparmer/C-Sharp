@@ -1,0 +1,11 @@
+C:\Users\Mattp\Documents\C-Sharp\ArraySorting\ArraySorting\obj\Debug\netcoreapp2.2\ArraySorting.csprojAssemblyReference.cache
+C:\Users\Mattp\Documents\C-Sharp\ArraySorting\ArraySorting\obj\Debug\netcoreapp2.2\ArraySorting.csproj.CoreCompileInputs.cache
+C:\Users\Mattp\Documents\C-Sharp\ArraySorting\ArraySorting\obj\Debug\netcoreapp2.2\ArraySorting.AssemblyInfoInputs.cache
+C:\Users\Mattp\Documents\C-Sharp\ArraySorting\ArraySorting\obj\Debug\netcoreapp2.2\ArraySorting.AssemblyInfo.cs
+C:\Users\Mattp\Documents\C-Sharp\ArraySorting\ArraySorting\bin\Debug\netcoreapp2.2\ArraySorting.deps.json
+C:\Users\Mattp\Documents\C-Sharp\ArraySorting\ArraySorting\bin\Debug\netcoreapp2.2\ArraySorting.runtimeconfig.json
+C:\Users\Mattp\Documents\C-Sharp\ArraySorting\ArraySorting\bin\Debug\netcoreapp2.2\ArraySorting.runtimeconfig.dev.json
+C:\Users\Mattp\Documents\C-Sharp\ArraySorting\ArraySorting\bin\Debug\netcoreapp2.2\ArraySorting.dll
+C:\Users\Mattp\Documents\C-Sharp\ArraySorting\ArraySorting\bin\Debug\netcoreapp2.2\ArraySorting.pdb
+C:\Users\Mattp\Documents\C-Sharp\ArraySorting\ArraySorting\obj\Debug\netcoreapp2.2\ArraySorting.dll
+C:\Users\Mattp\Documents\C-Sharp\ArraySorting\ArraySorting\obj\Debug\netcoreapp2.2\ArraySorting.pdb
