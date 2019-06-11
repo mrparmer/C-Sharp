@@ -76,6 +76,26 @@ namespace TextGame
                 Environment.Exit(0);
             }
         }
+        public static void winCondition()
+        {
+            Console.WriteLine("You survived! You keep moving through the forest and finally come upon a large wall, it's guarded by men in advanced armor, they see you, salute you because they know what you had \n" +
+                "have endured in the forest, and they open the small metal gate that's just big enough for a human to squeeze through. As you pass through the gate you get your first glimpse of your new home\n" +
+                "a medium sized city with squat buildings but advanced technology, this is a city of survivors, of warriors, only the people who survive the forest make it here. \n" +
+                "Start again?\n" +
+                "Y to begin again\n" +
+                "N to exit");
+            string userInputLower = Console.ReadLine();
+            string userInput = userInputLower.ToUpper();
+            if (userInput == "Y")
+            {
+                Console.Clear();
+                TextGame();
+            }
+            if (userInput == "N")
+            {
+                Environment.Exit(0);
+            }
+        }
     }
 
 }

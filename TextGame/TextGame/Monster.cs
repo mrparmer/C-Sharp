@@ -15,13 +15,17 @@ namespace TextGame
             strength = randomNum.RandomNumber(0, 10);
             health = randomNum.RandomNumber(2, 10);
         }
-        public int Attack(int damage)
+        public int MonAttack(int damage)
         {
             dmgDone = strength * 1.5;
             dmgDone = damage;
             return damage;
         }
         public static void MonsterClass()
+        {
+
+        }
+        public void MonCombat()
         {
 
         }

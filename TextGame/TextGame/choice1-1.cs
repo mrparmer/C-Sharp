@@ -215,22 +215,15 @@ namespace TextGame
             }
             else if (userInput == 2)
             {
-                Console.WriteLine("The use of the stick as a walking and brush stick helps you move a little faster, you are managing to keep ahead of the monster that is chasing you.\n" +
-                    "Your energy is waning fast however, you are not sure how much longer you can keep this pase." + player.Exertion() + " health\n" +
-                    "What do you do now?\n" +
-                    "1. Fight through the exhaustion and keep moving. By GOD you won't tire before the beast!\n" +
-                    "2. Slow down slightly just for a few minutes, to regain at least some of your energy.\n" +
-                    "3. The weight of the hopelessness of your situation starts to sink in, you start to tire faster.\n");
-                choices1_2_1_2();
-            }
+                Console.WriteLine("Stooping to pick up the stick causes you to lose your balance, you twist your ankle, and fall to the ground, crying out in pain, the monster sensing your distress manages to speed up \n" +
+                    "it reaches you quickly and rips you apart.");
+                Program.loseCondition();
+            } //death
             else if (userInput == 3)
             {
-                Console.WriteLine("You don't pick up the stick. You keep running, thinking how you hope you didn't make a mistake. Your decision pays off for a few minutes, you can tell \n" +
-                    "that you are pulling away from the beast, that is until you realize that the sound of your breathing, of you heart beating in your ears, and the thunderous noise of \n " +
-                    "your passage has actually just masked the the sound of the beast, as it gained on you. \n" +
-                    "It tackles you from behind, you have just enough time to wonder what you tripped over then it's all over.");
+                Console.WriteLine("You trip over the stick, breaking your ankle as you fall to the ground, the pain causes you to lose conciousness, you never feel the razor-sharp teeth close around your throat, snapping your neck.");
                 Program.loseCondition();
-            }
+            } //death
             else
             {
                 Console.WriteLine("That is not a valid choice, please select a valid choice.");
@@ -238,137 +231,57 @@ namespace TextGame
         }
         public void choices1_2_1_1()
         {
+            int userInput = Int32.Parse(Console.ReadLine());
+            if (userInput == 1)
+            {
+                Console.WriteLine("It's sniffs you out, its eye lock on yours and it on you in a flash, you don't even have time to scream");
+                Program.loseCondition();
+            }
+            else if (userInput == 2)
+            {
+                Console.WriteLine("You manage to distract it for a second, as it turns its head you spring forward rushing it with the spear held out in front of you, you get within stiking distance as it turns its head\n" +
+                    " back to you, it's surprised, it's almost like its never been challenged before... You take advantage of that momentary surprise and manage to get on top of the beast. \n" +
+                    "What do you do?\n" +
+                    "1. Stab the spear into the base of its skull\n" + //victory
+                    "2. You notice you can reach your arms around it neck, so you put the spear under it and pull it tight trying to choke the life from the beast"); //combat
+                choices1_2_1_1_2();
+            }
+            else
+            {
+                Console.WriteLine("That is not a valid choice, please select a valid choice.");
+            }
+        }
+        public void choices1_2_1_1_2()
+        {
+            int userInput = Int32.Parse(Console.ReadLine());
+            if (userInput == 1)
+            {
+                Console.WriteLine("Your adrenaline is pumping, you raise the spear high in the air, and bring it down with near super human strength into the neck of the beast, as it enters its flesh \n" +
+                    "the beast howls in pain. The spear pushes farther and farther through its next, its hot, thick purple blood is spurting from the hole and covering you in its foul, sticky wetness. \n" +
+                    "You push the stick deeper and as you do, you feel the beast start to weaken, with one last shove you push the spear out the other end and as you do the beast falls to the ground, no \n" +
+                    "longer moving, no longer breathing, you have slain the beast. You've done it, it's dead, you are no longer being hunted.");
+                Program.winCondition();
+            }
+            else if (userInput == 2)
+            {
+                Console.WriteLine("Your adrenaline is pumping, you raise the spear high in the air, and bring it around the beasts neck with near super human strength, you get one end into the crook of your left elbow and \n" +
+                    "using that to help you gain leverage pull the stick tight against the beasts throat, you feel the flesh resist but your too amped up to be stopped, the adrenaline has made you strong \n" +
+                    "you feel the flesh give way slowly, you start to hear small cracking noises, the beast starts to thrash violently, but you WILL NOT be thrown. You pull tighter to make sure you stick to \n" +
+                    "it's back like glue. It starts to slow down, it gets slower, and slower, more sluggish, weaker, as it's body is deprived of oxygen. Finally you give one last YANK on the stick. You feel \n" +
+                    "the bones of the beasts neck snap and it finally ceases it's fight. You've done it, it's dead, you are no longer being hunted.");
+            }
+            else
+            {
+                Console.WriteLine("That is not a valid choice, please select a valid choice.");
+            }
+        }
 
-        }
-        public void choices1_2_1_2()
+        public void choices1_3()
         {
+            Console.WriteLine("You chose poorly");
+            Program.loseCondition();
+        }
 
-        }
-        public void choices1_2_1_3()
-        {
-
-        }
-        public void choices1_2_2()
-        {
-            int userInput = Int32.Parse(Console.ReadLine());
-            if (userInput == 1)
-            {
-                Console.WriteLine("1");
-            }
-            else if (userInput == 2)
-            {
-                Console.WriteLine("2");
-            }
-            else if (userInput == 3)
-            {
-                Console.WriteLine("3");
-            }
-            else
-            {
-                Console.WriteLine("That is not a valid choice, please select a valid choice.");
-            }
-        }
-        public void choices1_2_3()
-        {
-            int userInput = Int32.Parse(Console.ReadLine());
-            if (userInput == 1)
-            {
-                Console.WriteLine("1");
-            }
-            else if (userInput == 2)
-            {
-                Console.WriteLine("2");
-            }
-            else if (userInput == 3)
-            {
-                Console.WriteLine("3");
-            }
-            else
-            {
-                Console.WriteLine("That is not a valid choice, please select a valid choice.");
-            }
-        }
-        
-        public void choices1_3() //not done
-        {
-            int userInput = Int32.Parse(Console.ReadLine());
-            if (userInput == 1)
-            {
-                Console.WriteLine("1");
-            }
-            else if (userInput == 2)
-            {
-                Console.WriteLine("2");
-            }
-            else if (userInput == 3)
-            {
-                Console.WriteLine("3");
-            }
-            else
-            {
-                Console.WriteLine("That is not a valid choice, please select a valid choice.");
-            }
-        }
-        public void choices1_3_1()
-        {
-            int userInput = Int32.Parse(Console.ReadLine());
-            if (userInput == 1)
-            {
-                Console.WriteLine("1");
-            }
-            else if (userInput == 2)
-            {
-                Console.WriteLine("2");
-            }
-            else if (userInput == 3)
-            {
-                Console.WriteLine("3");
-            }
-            else
-            {
-                Console.WriteLine("That is not a valid choice, please select a valid choice.");
-            }
-        }
-        public void choices1_3_2()
-        {
-            int userInput = Int32.Parse(Console.ReadLine());
-            if (userInput == 1)
-            {
-                Console.WriteLine("1");
-            }
-            else if (userInput == 2)
-            {
-                Console.WriteLine("2");
-            }
-            else if (userInput == 3)
-            {
-                Console.WriteLine("3");
-            }
-            else
-            {
-                Console.WriteLine("That is not a valid choice, please select a valid choice.");
-            }
-        }
-        public void choices1_3_3()
-        {
-            int userInput = Int32.Parse(Console.ReadLine());
-            if (userInput == 1)
-            {
-                Console.WriteLine("1");
-            }
-            else if (userInput == 2)
-            {
-                Console.WriteLine("2");
-            }
-            else if (userInput == 3)
-            {
-                Console.WriteLine("3");
-            }
-            else
-            {
-                Console.WriteLine("That is not a valid choice, please select a valid choice.");
-            }
-        }
     }
 }
 
