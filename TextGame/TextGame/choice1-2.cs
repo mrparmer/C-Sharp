@@ -19,7 +19,7 @@ namespace TextGame
             Console.WriteLine("What do you do?\n" +
                               "1. Look for materials to build a fire, or something to at least hold off the cold.\n" +
                               "2. Start walking, hoping you will come across someone, or at the very least the exertion will keep you warm.\n" +
-                              "3. Feel sorry for yourself, and stay put.");
+                              "3. The weight of your situation sinks in, you are alone, cold, and hungry.  You have no obvious resources, and no recourse. You become despondent. ");
             playerHealth = player.health;
 
             if (playerHealth < 100)
@@ -36,19 +36,20 @@ namespace TextGame
                 Console.Clear();
                 Console.WriteLine("You spend the next few minutes looking for anything you can use to keep warm, but on a quick inspection there is nothing, this beach is devoid of anything " +
                                   "useful.\n" +
-                                  "You are running out of day light, and the tide is coming in, what do you do now?");
+                                  "You are running out of day light, and the tide is coming in, what do you do now?\n" +
+                                  "1. Look for somewhere to hole up for the night, you don't know what's out here.\n" +
+                                  "2. You decide to bury yourself farther up the beach, away from the water, you notice the sand is pretty warm up here, thanks to the bright direct sunlght. \n" +
+                                  "You spend the night partially buried in the sane, you hear strange noises all night, but get some rest. The sun right wakes you up, what do you do not?");
             }
             else if (userInput == 2)
             {
                 Console.Clear();
-                Console.WriteLine("You begin to walk, it's obvious that this won't be a short walk, the land before you is flat, with forest as far as you can see.\n" +
-                                  "As you walk you begin to realize it's pretty late in the day, and it's getting colder by the minute.\n " +
-                                  "What do you do now?");
+                Console.WriteLine("You decide that standing here, or staying put is a waste of time. You start moving walking. Which way do you go?");
             }
             else if (userInput == 3)
             {
                 Console.Clear();
-                Console.WriteLine("You lay down, curl into the fetal position and succumb to the cold. Not long after, the beast finds you, nothing remains.");
+                Console.WriteLine("You lay down, curl into the fetal position and succumb to the cold. Not long after, a beast finds you, nothing remains.");
             }
             else if (userInput == 4)
             {
