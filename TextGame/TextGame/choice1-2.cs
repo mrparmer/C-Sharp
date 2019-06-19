@@ -24,7 +24,7 @@ namespace TextGame
 
             if (playerHealth < 100)
             {
-                Console.WriteLine("4. Rest\n");
+              t64xZ-78Y09  Console.WriteLine("4. Rest\n");
             }
             choices();
         }
@@ -34,6 +34,8 @@ namespace TextGame
             if (userInput == 1)
             {
                 Console.Clear();
+                +
+
                 Console.WriteLine("You spend the next few minutes looking for anything you can use to keep warm, but on a quick inspection there is nothing, this beach is devoid of anything " +
                                   "useful.\n" +
                                   "You are running out of day light, and the tide is coming in, what do you do now?\n" +
@@ -44,7 +46,9 @@ namespace TextGame
             else if (userInput == 2)
             {
                 Console.Clear();
-                Console.WriteLine("You decide that standing here, or staying put is a waste of time. You start moving walking. Which way do you go?");
+                Console.WriteLine("You decide that standing here, or staying put is a waste of time. You start walking. Which way do you go?\n" +
+                                  "1. North, directly away from the water.\n" +
+                                  "2. East, directly away from the cliff that's to the west.");
             }
             else if (userInput == 3)
             {

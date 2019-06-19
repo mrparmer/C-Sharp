@@ -692,11 +692,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Mattp\\Documents\\C-Sharp\\TextGame\\TextGame\\TextGame.csproj",
-      "projectName": "TextGame",
-      "projectPath": "C:\\Users\\Mattp\\Documents\\C-Sharp\\TextGame\\TextGame\\TextGame.csproj",
+      "projectUniqueName": "C:\\Users\\Mattp\\Documents\\C-Sharp\\Unit Conversion\\Unit Conversion\\Unit Conversion.csproj",
+      "projectName": "Unit Conversion",
+      "projectPath": "C:\\Users\\Mattp\\Documents\\C-Sharp\\Unit Conversion\\Unit Conversion\\Unit Conversion.csproj",
       "packagesPath": "C:\\Users\\Mattp\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Mattp\\Documents\\C-Sharp\\TextGame\\TextGame\\obj\\",
+      "outputPath": "C:\\Users\\Mattp\\Documents\\C-Sharp\\Unit Conversion\\Unit Conversion\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

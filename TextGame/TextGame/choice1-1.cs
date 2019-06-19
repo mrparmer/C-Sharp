@@ -161,7 +161,7 @@ namespace TextGame
             }
         }
 
-        public void choices1_2()
+        public void choices1_2()//done
         {
             int userInput = Int32.Parse(Console.ReadLine());
             if (userInput == 1)
@@ -199,7 +199,7 @@ namespace TextGame
                 
             }
         }
-        public void choices1_2_1()
+        public void choices1_2_1()//done
         {
             int userInput = Int32.Parse(Console.ReadLine());
             if (userInput == 1)
@@ -229,7 +229,7 @@ namespace TextGame
                 Console.WriteLine("That is not a valid choice, please select a valid choice.");
             }
         }
-        public void choices1_2_1_1()
+        public void choices1_2_1_1()//done
         {
             int userInput = Int32.Parse(Console.ReadLine());
             if (userInput == 1)
@@ -251,7 +251,7 @@ namespace TextGame
                 Console.WriteLine("That is not a valid choice, please select a valid choice.");
             }
         }
-        public void choices1_2_1_1_2()
+        public void choices1_2_1_1_2()//done
         {
             int userInput = Int32.Parse(Console.ReadLine());
             if (userInput == 1)
