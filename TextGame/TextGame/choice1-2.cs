@@ -24,7 +24,7 @@ namespace TextGame
 
             if (playerHealth < 100)
             {
-              t64xZ-78Y09  Console.WriteLine("4. Rest\n");
+              Console.WriteLine("4. Rest\n");
             }
             choices();
         }
@@ -34,8 +34,6 @@ namespace TextGame
             if (userInput == 1)
             {
                 Console.Clear();
-                +
-
                 Console.WriteLine("You spend the next few minutes looking for anything you can use to keep warm, but on a quick inspection there is nothing, this beach is devoid of anything " +
                                   "useful.\n" +
                                   "You are running out of day light, and the tide is coming in, what do you do now?\n" +
