@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AddressbBookV1));
             this.nameLabel = new System.Windows.Forms.Label();
             this.phoneLabel = new System.Windows.Forms.Label();
             this.addressLabel = new System.Windows.Forms.Label();
@@ -49,7 +50,7 @@
             // nameLabel
             // 
             this.nameLabel.AutoSize = true;
-            this.nameLabel.Location = new System.Drawing.Point(14, 16);
+            this.nameLabel.Location = new System.Drawing.Point(14, 49);
             this.nameLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.nameLabel.Name = "nameLabel";
             this.nameLabel.Size = new System.Drawing.Size(45, 17);
@@ -59,7 +60,7 @@
             // phoneLabel
             // 
             this.phoneLabel.AutoSize = true;
-            this.phoneLabel.Location = new System.Drawing.Point(14, 59);
+            this.phoneLabel.Location = new System.Drawing.Point(14, 92);
             this.phoneLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.phoneLabel.Name = "phoneLabel";
             this.phoneLabel.Size = new System.Drawing.Size(49, 17);
@@ -69,7 +70,7 @@
             // addressLabel
             // 
             this.addressLabel.AutoSize = true;
-            this.addressLabel.Location = new System.Drawing.Point(14, 103);
+            this.addressLabel.Location = new System.Drawing.Point(14, 136);
             this.addressLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.addressLabel.Name = "addressLabel";
             this.addressLabel.Size = new System.Drawing.Size(60, 17);
@@ -78,7 +79,7 @@
             // 
             // txtName
             // 
-            this.txtName.Location = new System.Drawing.Point(121, 13);
+            this.txtName.Location = new System.Drawing.Point(121, 46);
             this.txtName.Margin = new System.Windows.Forms.Padding(4);
             this.txtName.Name = "txtName";
             this.txtName.Size = new System.Drawing.Size(132, 23);
@@ -86,7 +87,7 @@
             // 
             // txtPhone
             // 
-            this.txtPhone.Location = new System.Drawing.Point(121, 56);
+            this.txtPhone.Location = new System.Drawing.Point(121, 89);
             this.txtPhone.Margin = new System.Windows.Forms.Padding(4);
             this.txtPhone.Name = "txtPhone";
             this.txtPhone.Size = new System.Drawing.Size(132, 23);
@@ -94,7 +95,7 @@
             // 
             // txtAddress
             // 
-            this.txtAddress.Location = new System.Drawing.Point(121, 100);
+            this.txtAddress.Location = new System.Drawing.Point(121, 133);
             this.txtAddress.Margin = new System.Windows.Forms.Padding(4);
             this.txtAddress.Name = "txtAddress";
             this.txtAddress.Size = new System.Drawing.Size(132, 23);
@@ -102,13 +103,16 @@
             // 
             // btnAddContact
             // 
+            this.btnAddContact.BackColor = System.Drawing.Color.PaleTurquoise;
+            this.btnAddContact.FlatAppearance.MouseDownBackColor = System.Drawing.Color.LightSeaGreen;
+            this.btnAddContact.FlatAppearance.MouseOverBackColor = System.Drawing.Color.PaleTurquoise;
             this.btnAddContact.Location = new System.Drawing.Point(13, 308);
             this.btnAddContact.Margin = new System.Windows.Forms.Padding(4);
             this.btnAddContact.Name = "btnAddContact";
             this.btnAddContact.Size = new System.Drawing.Size(125, 47);
             this.btnAddContact.TabIndex = 7;
             this.btnAddContact.Text = "Add Contact";
-            this.btnAddContact.UseVisualStyleBackColor = true;
+            this.btnAddContact.UseVisualStyleBackColor = false;
             this.btnAddContact.Click += new System.EventHandler(this.btnAddContact_Click);
             // 
             // contactsList
@@ -123,7 +127,7 @@
             // 
             // txtEmail
             // 
-            this.txtEmail.Location = new System.Drawing.Point(121, 145);
+            this.txtEmail.Location = new System.Drawing.Point(121, 178);
             this.txtEmail.Margin = new System.Windows.Forms.Padding(4);
             this.txtEmail.Name = "txtEmail";
             this.txtEmail.Size = new System.Drawing.Size(132, 23);
@@ -131,7 +135,7 @@
             // 
             // txtComment
             // 
-            this.txtComment.Location = new System.Drawing.Point(121, 190);
+            this.txtComment.Location = new System.Drawing.Point(121, 223);
             this.txtComment.Margin = new System.Windows.Forms.Padding(4);
             this.txtComment.Name = "txtComment";
             this.txtComment.Size = new System.Drawing.Size(132, 23);
@@ -139,7 +143,7 @@
             // 
             // txtContacted
             // 
-            this.txtContacted.Location = new System.Drawing.Point(121, 234);
+            this.txtContacted.Location = new System.Drawing.Point(121, 267);
             this.txtContacted.Margin = new System.Windows.Forms.Padding(4);
             this.txtContacted.Name = "txtContacted";
             this.txtContacted.Size = new System.Drawing.Size(132, 23);
@@ -148,7 +152,7 @@
             // Email
             // 
             this.Email.AutoSize = true;
-            this.Email.Location = new System.Drawing.Point(14, 148);
+            this.Email.Location = new System.Drawing.Point(14, 181);
             this.Email.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Email.Name = "Email";
             this.Email.Size = new System.Drawing.Size(42, 17);
@@ -158,7 +162,7 @@
             // commentLabel
             // 
             this.commentLabel.AutoSize = true;
-            this.commentLabel.Location = new System.Drawing.Point(14, 193);
+            this.commentLabel.Location = new System.Drawing.Point(14, 226);
             this.commentLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.commentLabel.Name = "commentLabel";
             this.commentLabel.Size = new System.Drawing.Size(67, 17);
@@ -168,7 +172,7 @@
             // lastContactLabel
             // 
             this.lastContactLabel.AutoSize = true;
-            this.lastContactLabel.Location = new System.Drawing.Point(14, 237);
+            this.lastContactLabel.Location = new System.Drawing.Point(14, 270);
             this.lastContactLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lastContactLabel.Name = "lastContactLabel";
             this.lastContactLabel.Size = new System.Drawing.Size(103, 17);
@@ -177,12 +181,14 @@
             // 
             // btnDateSort
             // 
+            this.btnDateSort.BackColor = System.Drawing.Color.PaleTurquoise;
+            this.btnDateSort.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btnDateSort.Location = new System.Drawing.Point(145, 308);
             this.btnDateSort.Name = "btnDateSort";
             this.btnDateSort.Size = new System.Drawing.Size(125, 47);
             this.btnDateSort.TabIndex = 101;
             this.btnDateSort.Text = "Sort by Contact Date";
-            this.btnDateSort.UseVisualStyleBackColor = true;
+            this.btnDateSort.UseVisualStyleBackColor = false;
             this.btnDateSort.Click += new System.EventHandler(this.btnDateSort_Click);
             // 
             // ContactsLbl
@@ -199,6 +205,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.MediumTurquoise;
             this.ClientSize = new System.Drawing.Size(924, 368);
             this.Controls.Add(this.ContactsLbl);
             this.Controls.Add(this.btnDateSort);
@@ -217,9 +224,10 @@
             this.Controls.Add(this.phoneLabel);
             this.Controls.Add(this.nameLabel);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "AddressbBookV1";
-            this.Text = "Addressbook v1.0";
+            this.Text = "Simple Contacts v1.0";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

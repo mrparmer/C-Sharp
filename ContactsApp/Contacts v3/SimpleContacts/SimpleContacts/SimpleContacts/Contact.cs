@@ -24,7 +24,7 @@ namespace SimpleContacts
                 }
                 else
                 {
-                    phone = "0000000000";
+                    phone = "1000000000";
                 }
             }
         }

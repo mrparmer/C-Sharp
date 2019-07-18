@@ -11,10 +11,12 @@ using System.IO;
 
 namespace SimpleContacts
 {
+   
     public partial class AddressbBookV1 : Form
     {
         //global array
-        private Contact[] addressBook = new Contact[1];
+        string path = @"contacts.data";
+        private List<Contact> addressBook = new List<Contact>();
         public AddressbBookV1()
         {
             InitializeComponent();
@@ -23,38 +25,38 @@ namespace SimpleContacts
         private void Write(Contact obj)
         {
             //try {
-                StreamWriter sw = new StreamWriter("contacts.txt", true);
-                sw.WriteLine(addressBook.Length + 1);
-                sw.WriteLine(obj.Name);
-                sw.WriteLine(obj.Phone);
-                sw.WriteLine(obj.Address);
-                sw.WriteLine(obj.Email);
-                sw.WriteLine(obj.Comment);
-                sw.WriteLine(obj.LastContact);
+            StreamWriter sw = new StreamWriter(path, true);
+            sw.WriteLine(addressBook.Count + 1);
+            sw.WriteLine(obj.Name);
+            sw.WriteLine(obj.Phone);
+            sw.WriteLine(obj.Address);
+            sw.WriteLine(obj.Email);
+            sw.WriteLine(obj.Comment);
+            sw.WriteLine(obj.LastContact);
 
-                for (int x = 0; x < addressBook.Length; x++)
-                {
-                    sw.WriteLine(addressBook[x].Name);
-                    sw.WriteLine(addressBook[x].Phone);
-                    sw.WriteLine(addressBook[x].Address);
-                    sw.WriteLine(addressBook[x].Email);
-                    sw.WriteLine(addressBook[x].Comment);
-                    sw.WriteLine(addressBook[x].LastContact);
-                }
-                sw.Close();
-            
+            for (int x = 0; x < addressBook.Count; x++)
+            {
+                sw.WriteLine(addressBook[x].Name);
+                sw.WriteLine(addressBook[x].Phone);
+                sw.WriteLine(addressBook[x].Address);
+                sw.WriteLine(addressBook[x].Email);
+                sw.WriteLine(addressBook[x].Comment);
+                sw.WriteLine(addressBook[x].LastContact);
+            }
+            sw.Close();
+
             //catch(Exception e)
             //{
             //    Console.Write(e);
             //}
-            }
+        }
 
 
         private void Read()
         {
-            StreamReader sr = new StreamReader("Contacts.txt");
-            addressBook = new Contact[Convert.ToInt32(sr.ReadLine())];
-            
+            StreamReader sr = new StreamReader(path);
+            addressBook = new Contact(sr.ReadLine());
+
             for (int x = 0; x < addressBook.Length; x++)
             {
                 addressBook[x] = new Contact
@@ -76,7 +78,7 @@ namespace SimpleContacts
             contactsList.Items.Clear();
             for (int x = 0; x < addressBook.Length; x++)
             {
-                contactsList.Items.Add(addressBook[x].ToString()); 
+                contactsList.Items.Add(addressBook[x].ToString());
             }
         }
 
@@ -106,9 +108,9 @@ namespace SimpleContacts
             Read();
             SortbyName();
             Display();
-            clearForm();            
+            clearForm();
         }
-        
+
         private void Form1_Load(object sender, EventArgs e)
         {
             Read();
@@ -126,9 +128,9 @@ namespace SimpleContacts
             {
                 swap = false;
 
-                for(int x =0; x < (addressBook.Length - 1); x++)
+                for (int x = 0; x < (addressBook.Length - 1); x++)
                 {
-                    if(addressBook[x].Name.CompareTo(addressBook[x+1].Name) > 0)
+                    if (addressBook[x].Name.CompareTo(addressBook[x + 1].Name) > 0)
                     {
                         temp = addressBook[x];
                         addressBook[x] = addressBook[x + 1];
@@ -138,7 +140,7 @@ namespace SimpleContacts
                 }
 
             } while (swap == true);
-            
+
         }
         private void SortbyDate()
         {
